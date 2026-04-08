@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  unwellWinterGamesCast: { field: 'items', nameKey: 'name' },
+  unwellWinterGamesHowToWatch: { field: 'steps', nameKey: 'label' },
+  unwellWinterGamesTrailer: { field: 'items', nameKey: 'label' },
+  unwellWinterGamesReleaseDate: { field: 'items', nameKey: 'label' },
+  unwellWinterGamesEpisodeGuide: { field: 'items', nameKey: '' }, // episode numbers not useful for matching
+  unwellWinterGamesShowmances: { field: 'items', nameKey: 'pair' },
+  unwellWinterGamesHudaAndLouis: { field: 'items', nameKey: 'headline' },
+  unwellWinterGamesDakotaMortensen: { field: 'items', nameKey: 'section' },
+  unwellWinterGamesAnnaDelvey: { field: 'items', nameKey: 'title' },
+  unwellWinterGamesFilmingLocation: { field: 'items', nameKey: 'title' },
+  unwellWinterGamesHostAndCommentators: { field: 'items', nameKey: 'title' },
+  unwellWinterGamesRules: { field: 'items', nameKey: 'title' },
+  unwellWinterGamesTeams: { field: 'items', nameKey: 'label' },
+  unwellWinterGamesAlexCooper: { field: 'items', nameKey: 'headline' },
+  unwellWinterGamesEpisode1Recap: { field: 'items', nameKey: 'title' },
+  unwellWinterGamesEpisode2Recap: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  unwellWinterGamesCast: ['cast', 'contestants', 'roster', 'members', 'participants'],
+  unwellWinterGamesHowToWatch: ['watch', 'stream', 'youtube', 'where to watch', 'streaming'],
+  unwellWinterGamesTrailer: ['trailer', 'preview', 'teaser', 'official'],
+  unwellWinterGamesReleaseDate: ['release', 'date', 'premiere', 'start date', 'schedule'],
+  unwellWinterGamesEpisodeGuide: ['episode', 'episodes', 'guide', 'schedule', 'recap'],
+  unwellWinterGamesShowmances: ['showmance', 'romance', 'couples', 'relationship', 'controversy'],
+  unwellWinterGamesHudaAndLouis: ['huda', 'louis', 'mustafa', 'russell', 'romance'],
+  unwellWinterGamesDakotaMortensen: ['dakota', 'mortensen', 'villain', 'contestant'],
+  unwellWinterGamesAnnaDelvey: ['anna', 'delvey', 'sorokin', 'controversy'],
+  unwellWinterGamesFilmingLocation: ['filming', 'location', 'utah', 'chalet', 'mountains'],
+  unwellWinterGamesHostAndCommentators: ['host', 'commentator', 'alex cooper', 'commentators'],
+  unwellWinterGamesRules: ['rules', 'format', 'challenges', 'competition', 'how it works'],
+  unwellWinterGamesTeams: ['teams', 'blue', 'red', 'competition', 'challenges'],
+  unwellWinterGamesAlexCooper: ['alex cooper', 'host', 'call her daddy', 'podcast'],
+  unwellWinterGamesEpisode1Recap: ['episode 1', 'recap', 'premiere', 'ep1', 'first episode'],
+  unwellWinterGamesEpisode2Recap: ['episode 2', 'recap', 'ep2', 'second episode'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['unwell', 'winter', 'games', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Unwell Winter Games")
+  const strippedQuery = normalizedQuery.replace(/unwell winter games?\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/unwell winter games?\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
@@ -159,14 +159,16 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
       linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw, 15)
     }
 
-    // Match sub-items
-    const subItems = moduleData[fieldConfig.field] as any[]
-    if (Array.isArray(subItems)) {
-      for (let i = 0; i < subItems.length; i++) {
-        const itemName = subItems[i]?.[fieldConfig.nameKey] as string
-        if (itemName) {
-          const key = `${moduleKey}::${fieldConfig.field}::${i}`
-          linkMap[key] = findBestMatch(itemName, allArticles)
+    // Match sub-items (skip if nameKey is empty)
+    if (fieldConfig.nameKey) {
+      const subItems = moduleData[fieldConfig.field] as any[]
+      if (Array.isArray(subItems)) {
+        for (let i = 0; i < subItems.length; i++) {
+          const itemName = subItems[i]?.[fieldConfig.nameKey] as string
+          if (itemName) {
+            const key = `${moduleKey}::${fieldConfig.field}::${i}`
+            linkMap[key] = findBestMatch(itemName, allArticles)
+          }
         }
       }
     }
