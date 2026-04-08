@@ -14,8 +14,10 @@ import {
   MessageCircle,
   Mic2,
   Play,
+  Shield,
   Sparkles,
   Star,
+  TrendingUp,
   Users,
   Video,
 } from 'lucide-react'
@@ -142,6 +144,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
   // Dakota accordion state
   const [dakotaExpanded, setDakotaExpanded] = useState<number | null>(null)
+
+  // Episode recap accordion states
+  const [ep1Expanded, setEp1Expanded] = useState<number | null>(null)
+  const [ep2Expanded, setEp2Expanded] = useState<number | null>(null)
 
   // FAQ accordion states
 
@@ -295,7 +301,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 'unwell-winter-games-episode-guide', 'unwell-winter-games-showmances',
                 'unwell-winter-games-huda-and-louis', 'unwell-winter-games-dakota-mortensen',
                 'unwell-winter-games-anna-delvey', 'unwell-winter-games-filming-location',
-                'unwell-winter-games-host-and-commentators', 'unwell-winter-games-rules'
+                'unwell-winter-games-host-and-commentators', 'unwell-winter-games-rules',
+                'unwell-winter-games-teams', 'unwell-winter-games-alex-cooper',
+                'unwell-winter-games-episode-1-recap', 'unwell-winter-games-episode-2-recap'
               ]
               const sectionId = sectionIds[index]
 
@@ -807,6 +815,198 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Unwell Winter Games Teams */}
+      <section id="unwell-winter-games-teams" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesTeams.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesTeams.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesTeams.subtitle}
+            </p>
+          </div>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground w-40">Aspect</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">What It Means</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Viewer Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.unwellWinterGamesTeams.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border last:border-0 hover:bg-white/[0.03] transition-colors">
+                    <td className="px-4 py-4 font-semibold text-[hsl(var(--nav-theme-light))] align-top whitespace-nowrap">{item.label}</td>
+                    <td className="px-4 py-4 text-muted-foreground align-top text-sm">{item.details}</td>
+                    <td className="px-4 py-4 align-top text-sm">
+                      <span className="inline-flex items-start gap-1.5">
+                        <Shield className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                        {item.viewer_value}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.unwellWinterGamesTeams.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.2)] flex items-center justify-center flex-shrink-0">
+                    <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-sm">{item.label}</h3>
+                </div>
+                <p className="text-muted-foreground text-sm mb-3">{item.details}</p>
+                <p className="text-xs text-[hsl(var(--nav-theme-light))]">{item.viewer_value}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Unwell Winter Games Alex Cooper */}
+      <section id="unwell-winter-games-alex-cooper" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesAlexCooper.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesAlexCooper.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesAlexCooper.subtitle}
+            </p>
+          </div>
+
+          {/* Vertical timeline */}
+          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
+            {t.modules.unwellWinterGamesAlexCooper.items.map((item: any, index: number) => (
+              <div key={index} className="relative">
+                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
+                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-2 flex-wrap">
+                    <div className="flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]">
+                      <TrendingUp className="w-3 h-3" />
+                      {item.date}
+                    </div>
+                  </div>
+                  <h3 className="font-bold text-base mb-2 leading-snug">{item.headline}</h3>
+                  <p className="text-muted-foreground text-sm">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Unwell Winter Games Episode 1 Recap */}
+      <section id="unwell-winter-games-episode-1-recap" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesEpisode1Recap.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesEpisode1Recap.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesEpisode1Recap.subtitle}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.unwellWinterGamesEpisode1Recap.items.map((item: any, index: number) => {
+              const isOpen = ep1Expanded === index
+              return (
+                <div key={index} className="border border-border rounded-xl overflow-hidden hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <button
+                    onClick={() => setEp1Expanded(isOpen ? null : index)}
+                    className="w-full flex items-center justify-between p-5 text-left bg-white/5 hover:bg-white/[0.08] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] flex items-center justify-center flex-shrink-0">
+                        <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div className="min-w-0">
+                        <span className="font-semibold block leading-snug">{item.title}</span>
+                        {!isOpen && <span className="text-xs text-muted-foreground line-clamp-1">{item.summary}</span>}
+                      </div>
+                    </div>
+                    <ChevronDown className={`w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 ml-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  {isOpen && (
+                    <div className="px-5 pb-5 pt-4 bg-white/[0.02] border-t border-border">
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))] font-medium mb-2">{item.summary}</p>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.content}</p>
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Unwell Winter Games Episode 2 Recap */}
+      <section id="unwell-winter-games-episode-2-recap" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesEpisode2Recap.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesEpisode2Recap.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesEpisode2Recap.subtitle}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.unwellWinterGamesEpisode2Recap.items.map((item: any, index: number) => {
+              const isOpen = ep2Expanded === index
+              return (
+                <div key={index} className="border border-border rounded-xl overflow-hidden hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <button
+                    onClick={() => setEp2Expanded(isOpen ? null : index)}
+                    className="w-full flex items-center justify-between p-5 text-left bg-white/5 hover:bg-white/[0.08] transition-colors"
+                  >
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] flex items-center justify-center flex-shrink-0">
+                        <MessageCircle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div className="min-w-0">
+                        <span className="font-semibold block leading-snug">{item.title}</span>
+                        {!isOpen && <span className="text-xs text-muted-foreground line-clamp-1">{item.summary}</span>}
+                      </div>
+                    </div>
+                    <ChevronDown className={`w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 ml-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  {isOpen && (
+                    <div className="px-5 pb-5 pt-4 bg-white/[0.02] border-t border-border">
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))] font-medium mb-2">{item.summary}</p>
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.content}</p>
+                    </div>
+                  )}
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>

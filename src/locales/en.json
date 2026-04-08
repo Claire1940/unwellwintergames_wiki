@@ -118,6 +118,26 @@
         "icon": "ListOrdered",
         "title": "Unwell Winter Games Rules",
         "description": "Two teams, daily challenges, cash prizes, and how the winner is decided"
+      },
+      {
+        "icon": "Shield",
+        "title": "Unwell Winter Games Teams",
+        "description": "Blue vs Purple team breakdown, challenge results, and alliance map"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Unwell Winter Games Alex Cooper",
+        "description": "From podcast host to Unwell media empire: the creator timeline"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Unwell Winter Games Episode 1 Recap",
+        "description": "Snowmobiles, Anna Delvey's ankle monitor, and the weakest-link twist"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Unwell Winter Games Episode 2 Recap",
+        "description": "Alliances lock in and the Fruity Pebbles confession goes viral"
       }
     ]
   },
@@ -563,6 +583,148 @@
           "step": "05",
           "title": "One team takes the final team prize",
           "description": "After the four-day run, the format ends with one team winning the final Unwell Winter Games team prize, while alliances and rivalries shape the path there."
+        }
+      ]
+    },
+    "unwellWinterGamesTeams": {
+      "eyebrow": "Team Format",
+      "title": "Unwell Winter Games Teams",
+      "subtitle": "The color split gives the season its cleanest structure, but the first two episodes make it clear that trust is far more unstable than the jerseys.",
+      "intro": "Unwell Winter Games runs on a simple engine: two color teams competing over four filmed days in Park City, Utah, with a final team prize layered on top of separate individual cash opportunities.",
+      "items": [
+        {
+          "label": "Core Format",
+          "details": "The series splits the chalet into Blue and Purple teams over four filmed days in Park City, Utah. A final team prize sits on top of separate individual cash prizes, so cooperation matters but never feels completely pure.",
+          "viewer_value": "This is why every episode can function as both a sports-style recap and a social-drama recap."
+        },
+        {
+          "label": "Episode 1 Reset",
+          "details": "Day one starts with a snowmobile challenge, team-draft tension, and a game-changing weakest-link twist. The format establishes the teams immediately instead of easing viewers in slowly.",
+          "viewer_value": "Viewers learn right away that team status can rise or collapse in a single episode."
+        },
+        {
+          "label": "First Major Sacrifice",
+          "details": "Hallie Batchelder is labeled her team's weakest link, and Andrew Vetter steps in for her before being eliminated. The moment turns a challenge beat into one of the first emotional storylines of the season.",
+          "viewer_value": "The team page matters because the color split has real consequences, not just decorative branding."
+        },
+        {
+          "label": "Episode 2 Direction",
+          "details": "By day two, alliance talk is no longer background noise. The first team challenge pushes trust, side conversations, and built-in couples to the center of the competition.",
+          "viewer_value": "Blue vs Purple becomes a live social map for the week, not just a production label."
+        },
+        {
+          "label": "Why Teams Matter",
+          "details": "The team lens is the easiest way to organize challenge fallout, romance spillover, and shifting power after each episode drop. It creates a natural home for team results, standout moments, and cast movement in one place.",
+          "viewer_value": "This is the page viewers open when they want the show explained at a glance."
+        }
+      ]
+    },
+    "unwellWinterGamesAlexCooper": {
+      "eyebrow": "Creator Focus",
+      "title": "Unwell Winter Games Alex Cooper",
+      "subtitle": "This page captures the bigger story behind the show: Unwell Winter Games is part of Cooper's larger move from podcast host to multi-arm media operator.",
+      "intro": "A lot of search traffic comes in through Alex Cooper rather than the show title itself. The strongest version of this page is a clean timeline showing how Cooper built Unwell from a creator platform into a business spanning podcasts, unscripted production, brand work, and direct-to-YouTube reality programming.",
+      "items": [
+        {
+          "date": "Aug 2023",
+          "headline": "The Unwell Network Launches",
+          "description": "Cooper expands beyond a single hit podcast and starts building Unwell as a creator-focused network centered on internet-native personalities and long-form audio."
+        },
+        {
+          "date": "Mar 2025",
+          "headline": "Unwell Productions Lands First Unscripted TV Series",
+          "description": "Hulu announces Overboard for Love, marking the first TV project under Unwell Productions and showing that the brand is moving into structured unscripted formats, not just podcasts."
+        },
+        {
+          "date": "Oct 2025",
+          "headline": "Unwell Creative Agency Goes Live",
+          "description": "The business widens again with an in-house creative and brand arm, extending the Unwell name into campaigns, events, and original productions."
+        },
+        {
+          "date": "Mar 2026",
+          "headline": "Unwell Winter Games Framed as Direct-to-Audience Play",
+          "description": "Trade coverage positions Unwell Winter Games as part of Unwell's push into fully self-produced premium content distributed through its own YouTube ecosystem."
+        },
+        {
+          "date": "Apr 2026",
+          "headline": "The Reality-Programming Era Arrives on Screen",
+          "description": "Episode 1 premieres on the Unwell YouTube channel, turning Cooper from podcast star and executive producer into the driving force behind a full reality-show rollout under her own media brand."
+        }
+      ]
+    },
+    "unwellWinterGamesEpisode1Recap": {
+      "eyebrow": "Episode Recap",
+      "title": "Unwell Winter Games Episode 1 Recap",
+      "subtitle": "The premiere introduces the show's tone in one shot: winter-sports spectacle, messy casting, fast social ranking, and a twist that turns the competition personal immediately.",
+      "intro": "Episode 1 is the page casual viewers search when they want the whole launch episode reduced to the beats that actually mattered. The recap balances competition setup with the viral moments and relationship seeds that gave the premiere its first wave of conversation online.",
+      "items": [
+        {
+          "title": "The Show Opens in Full Chaos Mode",
+          "summary": "The premiere drops the cast into a luxe Park City chalet and immediately frames the tone as competition plus spectacle plus gossip.",
+          "content": "Episode 1 does not waste time on slow introductions. It wants viewers to meet the cast through pressure, reactions, and first-impression energy instead of polished bios."
+        },
+        {
+          "title": "Snowmobiles Set the Tone for Day 1",
+          "summary": "The first major set piece is a snowmobile challenge that blends winter-sports visuals with social pressure.",
+          "content": "The event works as both a competition opener and a personality sorter. Who looks fearless, who panics, and who starts talking strategy becomes part of the story right away."
+        },
+        {
+          "title": "The Team Draft Makes Being Chosen Part of the Drama",
+          "summary": "Before the house can settle, the color-team format forces people to read status, chemistry, and usefulness in real time.",
+          "content": "That draft energy matters because Unwell Winter Games is built around perception. Being wanted, overlooked, or doubted becomes social fuel for the rest of the episode."
+        },
+        {
+          "title": "Anna Delvey Creates the First Instant Viral Moment",
+          "summary": "Anna has to leave early to charge her ICE-issued ankle monitor after it loses power in the Utah altitude.",
+          "content": "The scene lands as the premiere's clearest headline moment. It reminds viewers that the show is selling notoriety and unpredictability as aggressively as it is selling competition."
+        },
+        {
+          "title": "The Weakest-Link Twist Changes the Emotional Center",
+          "summary": "Hallie Batchelder is marked as her team's weakest link, and Andrew Vetter steps in for her before being eliminated.",
+          "content": "That sacrifice gives Episode 1 a cleaner emotional beat than a normal premiere. It also starts the Hallie-Andrew connection that carries straight into Episode 2."
+        },
+        {
+          "title": "Hallie's Triangle Is Planted Early",
+          "summary": "Hallie has visible chemistry with Andrew, while Dakota Mortensen is introduced as a tempting alternate lane.",
+          "content": "The premiere ends with romance positioned as part of the game board. That decision keeps the recap page useful even for viewers who care more about house dynamics than challenge results."
+        }
+      ]
+    },
+    "unwellWinterGamesEpisode2Recap": {
+      "eyebrow": "Episode Recap",
+      "title": "Unwell Winter Games Episode 2 Recap",
+      "subtitle": "The second episode is where the show stops feeling like a novelty launch and starts behaving like a real week-long reality event with recurring conflicts and relationship stakes.",
+      "intro": "A strong Episode 2 page has to do more than summarize challenges. It should explain how the social board changed, why the day's most quoted confession mattered, and which relationships moved from background color into active story engine territory.",
+      "items": [
+        {
+          "title": "Day Two Turns the House Into a Strategy Game",
+          "summary": "Episode 2 moves from setup into active alliance-making.",
+          "content": "The social logic of the show becomes much easier to read here. Conversations are less about introductions and more about who matters, who is trusted, and who can shift the mood of a group."
+        },
+        {
+          "title": "The First Team Challenge Raises the Stakes",
+          "summary": "The episode treats cooperation as something fragile rather than automatic.",
+          "content": "By this point, the Blue-versus-Purple setup is doing real work. The challenge shows that chemistry, ego, and quick resentment can all shape competitive outcomes."
+        },
+        {
+          "title": "Demi Engemann Delivers the Episode's Most Quoted Moment",
+          "summary": "Demi revisits the Fruity Pebbles scandal on camera, producing the day's biggest shock-and-share confession.",
+          "content": "This is the episode's most tabloid-friendly beat, and it instantly became one of the main reasons casual viewers talked about Episode 2 online."
+        },
+        {
+          "title": "Huda Defines Her Relationship with Louis",
+          "summary": "In a conversation with Cameron Jerrard, Huda says she and Louis have already discussed marriage and kids.",
+          "content": "That line reframes them from generic reality-TV couple to one of the season's most serious built-in pairs, which makes every argument or alliance around them more interesting."
+        },
+        {
+          "title": "Hallie's Storyline Gets Sharper",
+          "summary": "Andrew returns to the chalet and Hallie's chemistry with him becomes more concrete, while her Dakota flirtation cools off after the hot-tub energy.",
+          "content": "Episode 2 makes the triangle easier to read. Andrew feels like the emotional lane, Dakota feels like the distraction, and Hallie stays at the center of the mess."
+        },
+        {
+          "title": "Why Episode 2 Matters",
+          "summary": "This is the chapter where the show proves it can generate recurring storylines, not just launch-week chaos.",
+          "content": "Viewers leave with clearer alliances, stronger relationship stakes, and a better sense of who can drive the rest of the week's conversation."
         }
       ]
     }
