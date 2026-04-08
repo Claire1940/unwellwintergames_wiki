@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 					url: `${siteUrl}/images/hero.webp`,
 					width: 1920,
 					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					alt: 'Unwell Winter Games - YouTube Reality Show',
 				},
 			],
 		},

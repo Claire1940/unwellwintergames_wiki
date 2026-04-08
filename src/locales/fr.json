@@ -1,19 +1,19 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Unwell Winter Games - Casting, Épisodes et Où regarder",
+      "description": "Suivez le casting de Unwell Winter Games, les résumés d'épisodes, le calendrier de diffusion, les couples, les résultats et où regarder la téléréalité YouTube d'Alex Cooper.",
+      "keywords": "Unwell Winter Games, Alex Cooper, YouTube reality show, casting, épisodes, où regarder, couples",
+      "ogTitle": "Unwell Winter Games - Casting, Épisodes et Où regarder",
+      "ogDescription": "Suivez le casting de Unwell Winter Games, les résumés d'épisodes, le calendrier de diffusion, les couples, les résultats et où regarder la téléréalité YouTube d'Alex Cooper.",
+      "twitterTitle": "Unwell Winter Games - Casting, Épisodes et Où regarder",
+      "twitterDescription": "Suivez le casting de Unwell Winter Games, les épisodes, le calendrier de diffusion, les couples et où regarder la compétition de téléréalité YouTube d'Alex Cooper."
     }
   },
   "nav": {
     "guide": "Guide",
     "watch": "Regarder",
-    "cast": "Distribution",
+    "cast": "Casting",
     "people": "Personnes",
     "episode": "Épisodes",
     "controversy": "Controverse",
@@ -22,767 +22,717 @@
   "common": {
     "home": "Accueil",
     "more": "Plus",
-    "playNow": "Obtenir la démo",
+    "playNow": "Regarder sur YouTube",
     "switchLanguage": "Changer de langue",
     "switchTheme": "Changer de thème",
     "lightMode": "Mode clair",
     "darkMode": "Mode sombre",
-    "notFound": "Page introuvable",
+    "notFound": "Page non trouvée",
     "notFoundDescription": "La page que vous recherchez n'existe pas.",
     "backToHome": "Retour à l'accueil",
-    "relatedArticles": "Articles similaires",
-    "readMore": "En savoir plus"
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Compétition de téléréalité YouTube chaotique",
+    "title": "Unwell Winter Games",
+    "description": "Suivez le casting, les épisodes, le calendrier de diffusion, les couples, les défis et les plus grands drames de la série de compétition hivernale virale d'Alex Cooper sur YouTube.",
+    "getFreeCodesCTA": "Regarder la bande-annonce",
+    "playOnSteamCTA": "Site officiel",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "16",
+        "label": "Membres du casting"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "4",
+        "label": "Épisodes"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "2",
+        "label": "Équipes"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "4 Jours",
+        "label": "Durée de la compétition"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de Lucid Blocks",
-    "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
+    "title": "Unwell Winter Games sur YouTube",
+    "description": "Regardez les quatre épisodes gratuitement sur la chaîne YouTube officielle de Unwell. De nouveaux épisodes sortent chaque jour du 6 au 9 avril 2026."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressources",
-    "subtitle": "Tout ce dont vous avez besoin pour maîtriser les braquages et la furtivité en coopération",
+    "title": "Unwell Winter Games",
+    "titleHighlight": "Guide",
+    "subtitle": "Tout ce que vous devez savoir sur le casting, les épisodes, la bande-annonce et le calendrier de diffusion",
     "cards": [
       {
-        "icon": "Télécharger",
-        "title": "Téléchargement de la démo",
-        "description": "Obtenez la démo gratuite sur Steam"
+        "icon": "Users",
+        "title": "Casting de Unwell Winter Games",
+        "description": "Découvrez les 16 candidats et leurs parcours"
       },
       {
-        "icon": "BookOpen",
-        "title": "Guide du débutant",
-        "description": "Boucle de base et pièges courants"
+        "icon": "PlayCircle",
+        "title": "Guide de visionnage de Unwell Winter Games",
+        "description": "Comment et où regarder sur YouTube"
       },
       {
-        "icon": "Utilisateurs",
-        "title": "Guide de coopération",
-        "description": "Rôles à 6 joueurs et tactiques de sauvetage"
+        "icon": "Film",
+        "title": "Bande-annonce de Unwell Winter Games",
+        "description": "Bande-annonce officielle et analyse éditoriale"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Tâches et objectifs",
-        "description": "Ce que le Haut-Gnome attend de vous"
+        "icon": "CalendarDays",
+        "title": "Date de sortie de Unwell Winter Games",
+        "description": "Calendrier complet de sortie des épisodes"
       },
       {
-        "icon": "Clavier",
-        "title": "Commandes et raccourcis clavier",
-        "description": "Touches par défaut et comment les modifier"
+        "icon": "CalendarRange",
+        "title": "Guide des épisodes de Unwell Winter Games",
+        "description": "Suivez chaque épisode avec les dates et les moments clés"
       },
       {
-        "icon": "Bouclier",
-        "title": "Paramètres de contenu",
-        "description": "Contenu pour adultes et options d'activation/désactivation"
+        "icon": "Heart",
+        "title": "Showmances de Unwell Winter Games",
+        "description": "Chaque couple, coup de cœur et presque-couple à ce jour"
       },
       {
-        "icon": "Marteau",
-        "title": "Fabrication et équipement",
-        "description": "Équipez-vous avec des matériaux volés"
+        "icon": "Link2",
+        "title": "Unwell Winter Games Huda & Louis",
+        "description": "Pourquoi Huda et Louis sont devenus une intrigue majeure"
       },
       {
-        "icon": "Package",
-        "title": "Butin et objets",
-        "description": "Quoi voler et conseils de transport"
+        "icon": "UserCircle",
+        "title": "Unwell Winter Games Dakota Mortensen",
+        "description": "Qui est Dakota et pourquoi les spectateurs le recherchent en premier"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Ennemis et dangers",
-        "description": "Menaces et comment les gérer"
+        "icon": "Star",
+        "title": "Unwell Winter Games Anna Delvey",
+        "description": "Son histoire, la scène du bracelet électronique et pourquoi elle est la tête d'affiche du casting"
       },
       {
-        "icon": "Oeil",
-        "title": "Furtivité et évasion",
-        "description": "Restez caché et extrayez-vous en toute sécurité"
+        "icon": "MapPin",
+        "title": "Lieu de tournage de Unwell Winter Games",
+        "description": "Le cadre du chalet à Park City, Utah et pourquoi le lieu façonne le format"
       },
       {
-        "icon": "Accueil",
-        "title": "Améliorations de la maison",
-        "description": "Améliorez votre base d'île flottante"
+        "icon": "Mic2",
+        "title": "Animateur et commentateurs de Unwell Winter Games",
+        "description": "Analyse à l'écran d'Adam Waheed, Grace O'Malley et Graydon Cutler"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Communauté et Discord",
-        "description": "Liens officiels et recherche de groupe"
+        "icon": "ListOrdered",
+        "title": "Règles de Unwell Winter Games",
+        "description": "Deux équipes, des défis quotidiens, des prix en espèces et comment le gagnant est désigné"
       },
       {
-        "icon": "Paramètres",
-        "title": "Mods et BepInEx",
-        "description": "Installer le framework et configurer les mods"
-      },
-      {
-        "icon": "Étoile",
-        "title": "Mods populaires",
-        "description": "Meilleures sélections et fonctionnalités de la communauté"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Prise en charge de la manette",
-        "description": "Jeu complet à la manette avec curseur d'interface utilisateur"
+        "icon": "Shield",
+        "title": "Équipes de Unwell Winter Games",
+        "description": "Répartition des équipes Bleue vs Violette, résultats des défis et carte des alliances"
       },
       {
         "icon": "TrendingUp",
-        "title": "Nombre de joueurs et tendance",
-        "description": "Statistiques en direct et suivi des pics"
+        "title": "Unwell Winter Games Alex Cooper",
+        "description": "De l'animation de podcast à l'empire médiatique Unwell : la chronologie de la créatrice"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Résumé de l'épisode 1 de Unwell Winter Games",
+        "description": "Motoneiges, le bracelet électronique d'Anna Delvey et le rebondissement du maillon faible"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Résumé de l'épisode 2 de Unwell Winter Games",
+        "description": "Les alliances se confirment et la confession Fruity Pebbles devient virale"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Téléchargement de la démo de Lucid Blocks",
-      "subtitle": "Obtenez la démo gratuite sur Steam",
-      "downloadSize": "2,62 Gio",
-      "diskSize": "4,88 Gio",
-      "releaseDate": "30 janvier 2026",
-      "price": "Gratuit",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Télécharger la démo",
-      "secondaryCTA": "Voir les informations techniques",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
+    "unwellWinterGamesCast": {
+      "title": "Casting de Unwell Winter Games",
+      "subtitle": "Ce casting mélange des noms de la télé-réalité, des personnalités d'influenceurs et quelques choix inattendus issus de l'univers élargi Unwell d'Alex Cooper.",
+      "items": [
         {
-          "heading": "Où télécharger",
-          "items": [
-            "Ouvrez la page officielle du magasin Steam et utilisez la section \"Télécharger la démo\".",
-            "Si Steam vous demande de vous connecter, connectez-vous d'abord et réessayez."
-          ]
+          "name": "Alissa Violet",
+          "category": "Créatrice",
+          "known_for": "Créatrice YouTube et TikTok ; ancienne membre de Team 10 reconnue pour les dramas des débuts d'Internet."
         },
         {
-          "heading": "Vérifications rapides d'installation et de lancement",
-          "items": [
-            "Emplacement d'installation par défaut : Dossier de la bibliothèque Steam → steamapps → common → (dossier du jeu).",
-            "Si le jeu ne se lance pas : vérifiez les fichiers du jeu dans Steam, puis redémarrez Steam."
-          ]
+          "name": "Andrew Vetter",
+          "category": "Membre de la production",
+          "known_for": "Membre de l'équipe de production Unwell ; le choix le moins traditionnel du casting et un véritable joker immédiat."
+        },
+        {
+          "name": "Anna Delvey",
+          "category": "Figure de la culture pop",
+          "known_for": "La figure réelle derrière Inventing Anna ; ancienne candidate de Dancing with the Stars."
+        },
+        {
+          "name": "Cameron Jerrard",
+          "category": "Créateur",
+          "known_for": "Personnalité des réseaux sociaux avec une large audience sur TikTok."
+        },
+        {
+          "name": "Dakota Mortensen",
+          "category": "Télé-réalité",
+          "known_for": "L'ex de Taylor Frankie Paul ; figure centrale liée à The Secret Lives of Mormon Wives."
+        },
+        {
+          "name": "Demi Engemann",
+          "category": "Télé-réalité",
+          "known_for": "Personnalité du MomTok mormon et ancienne membre du casting de The Secret Lives of Mormon Wives."
+        },
+        {
+          "name": "Dylan Kevitch",
+          "category": "Créateur",
+          "known_for": "Personnalité des réseaux sociaux connue pour ses canulars téléphoniques et son contenu comique viral."
+        },
+        {
+          "name": "Ekin-Su Cülcüloğlu",
+          "category": "Télé-réalité",
+          "known_for": "Gagnante de Love Island UK ; est également apparue dans Love Island: All Stars et The Traitors."
+        },
+        {
+          "name": "Eyal Booker",
+          "category": "Télé-réalité",
+          "known_for": "Ancien candidat de Love Island UK et ancien membre d'un boys band."
+        },
+        {
+          "name": "Gleb Savchenko",
+          "category": "Télé-réalité",
+          "known_for": "Danseur professionnel de longue date dans Dancing with the Stars."
+        },
+        {
+          "name": "Hallie Batchelder",
+          "category": "Créatrice",
+          "known_for": "Créatrice basée à New York ; animatrice de Extra Dirty sur le réseau Unwell."
+        },
+        {
+          "name": "Hannah Stocking",
+          "category": "Créatrice",
+          "known_for": "Star de la comédie de l'ère Vine qui s'est étendue sur YouTube, Instagram et TikTok."
+        },
+        {
+          "name": "Huda Mustafa",
+          "category": "Télé-réalité",
+          "known_for": "Révélation de Love Island USA ; l'une des candidates vedettes de la semaine de lancement."
+        },
+        {
+          "name": "Joe Amabile",
+          "category": "Télé-réalité",
+          "known_for": "Candidat favori de la Bachelor Nation connu sous le nom de Grocery Store Joe ; est apparu dans The Bachelorette et Bachelor in Paradise."
+        },
+        {
+          "name": "Juliette Porter",
+          "category": "Télé-réalité",
+          "known_for": "Star de Siesta Key qui est ensuite apparue dans Perfect Match."
+        },
+        {
+          "name": "Louis Russell",
+          "category": "Télé-réalité",
+          "known_for": "Personnalité de Too Hot to Handle, Battle Camp et Perfect Match liée à Huda Mustafa."
+        },
+        {
+          "name": "Niko Emanuilidis",
+          "category": "Créateur",
+          "known_for": "Animateur du podcast The Daddy Academy et personnalité des réseaux sociaux."
+        },
+        {
+          "name": "Saraya Bevis",
+          "category": "Divertissement sportif",
+          "known_for": "Catcheuse professionnelle anglaise largement connue pour la WWE ; également auteure et animatrice de podcast."
+        },
+        {
+          "name": "Serena Pitt",
+          "category": "Télé-réalité",
+          "known_for": "Personnalité de la Bachelor Nation, fondatrice de Reset the Label et co-animatrice avec Joe Amabile."
         }
       ]
     },
-    "beginnerGuide": {
-      "title": "Guide du débutant de Lucid Blocks",
-      "subtitle": "Maîtrisez la boucle de base et évitez les erreurs courantes",
-      "steps": [
-        {
-          "number": 1,
-          "title": "Entrer dans la maison",
-          "description": "Descendez dans une maison humaine depuis votre base d'île flottante. Apparaissez à l'extérieur et faufilez-vous par des portes ou des fenêtres déverrouillées."
-        },
-        {
-          "number": 2,
-          "title": "Effectuer des tâches",
-          "description": "Terminez les tâches du Haut-Gnome avant la fin du temps imparti. Vérifiez les objectifs via la touche Tab et donnez la priorité aux tâches risquées en premier."
-        },
-        {
-          "number": 3,
-          "title": "Voler des objets",
-          "description": "Attrapez des objets de valeur et des matériaux pour la fabrication. Évitez de faire du bruit ou de vous faire repérer par le propriétaire."
-        },
-        {
-          "number": 4,
-          "title": "S'échapper via une tornade",
-          "description": "Lorsque le minuteur se termine, une tornade apparaît dans la cour - atteignez-la pour vous extraire en toute sécurité. Commencez à bouger tôt !"
-        },
-        {
-          "number": 5,
-          "title": "Améliorer et répéter",
-          "description": "Utilisez les récompenses et les matériaux pour fabriquer de l'équipement à la maison, puis commencez votre prochain braquage avec un meilleur équipement."
-        }
-      ],
-      "pitfalls": [
-        {
-          "title": "Se faire prendre",
-          "description": "Le propriétaire vous poursuivra. Restez caché, utilisez des distractions et brisez les lignes de vue pour vous échapper.",
-          "icon": "AlertTriangle"
-        },
-        {
-          "title": "Manque de temps",
-          "description": "Le minuteur de la tornade est strict. Commencez à vous diriger vers l'extraction tôt au lieu de trop piller.",
-          "icon": "Clock"
-        },
-        {
-          "title": "Ignorer ses coéquipiers",
-          "description": "Sauvez rapidement les alliés piégés dans les pièges du réfrigérateur/four - signalez immédiatement pour les sauvetages.",
-          "icon": "Utilisateurs"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Guide de coopération de Lucid Blocks",
-      "subtitle": "Coordonnez-vous avec jusqu'à 6 joueurs pour un chaos maximal",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Éclaireur",
-          "description": "Vérifiez les menaces, marquez les chemins sûrs et guidez les mouvements de l'équipe",
-          "icon": "Oeil"
-        },
-        {
-          "name": "Transporteur",
-          "description": "Concentrez-vous sur les objets lourds avec des améliorations de sac à dos et sécurisez la progression des tâches",
-          "icon": "Package"
-        },
-        {
-          "name": "Distraction",
-          "description": "Attirez le propriétaire/les animaux de compagnie loin de l'équipe pour créer des fenêtres sûres",
-          "icon": "Utilisateurs"
-        },
-        {
-          "name": "Sauveteur",
-          "description": "Libérez les coéquipiers piégés du réfrigérateur/four avant qu'ils ne meurent",
-          "icon": "Bouclier"
-        }
-      ],
-      "threats": [
-        "Propriétaire (vous poursuit et vous piège)",
-        "Chats et souris (itinéraires de patrouille)",
-        "Aspirateur robot (danger instantané)",
-        "Limite de temps (extraction par tornade)"
-      ],
-      "communication": "Utilisez le chat vocal (touche V) pour coordonner les tâches et les sauvetages. Annoncez : \"Repéré\", \"Itinéraire\", \"Besoin d'un sauvetage\", \"Extraire bientôt\"."
-    },
-    "tasksObjectives": {
-      "title": "Tâches et objectifs de Lucid Blocks",
-      "subtitle": "Ce que le Haut-Gnome veut : exemples de tâches",
-      "taskTypes": [
-        {
-          "type": "Voler des objets",
-          "examples": [
-            "Attrapez des objets spécifiques marqués par les objectifs du Haut-Gnome"
-          ]
-        },
-        {
-          "type": "Atteindre des lieux",
-          "examples": [
-            "Naviguez vers des zones spécifiées à l'intérieur de la maison"
-          ]
-        },
-        {
-          "type": "Faire des bêtises",
-          "examples": [
-            "Casser une télévision",
-            "Inonder des toilettes",
-            "Créer le chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Effectuez d'abord les tâches risquées pendant que l'équipe est ensemble",
-        "Attribuez un transporteur pour les objets de la tâche afin qu'ils ne soient pas perdus pendant les poursuites",
-        "Commencez à vous déplacer vers l'extraction avant la fin du temps imparti"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Commandes et raccourcis clavier de Lucid Blocks",
-      "subtitle": "Commandes clavier par défaut (et où les modifier)",
-      "keybinds": [
-        {
-          "action": "Déplacer à gauche",
-          "key": "A"
-        },
-        {
-          "action": "Déplacer à droite",
-          "key": "D"
-        },
-        {
-          "action": "Avancer",
-          "key": "W"
-        },
-        {
-          "action": "Reculer",
-          "key": "S"
-        },
-        {
-          "action": "S'accroupir",
-          "key": "Ctrl gauche"
-        },
-        {
-          "action": "Attaquer",
-          "key": "Clic gauche"
-        },
-        {
-          "action": "Courir",
-          "key": "Maj gauche"
-        },
-        {
-          "action": "Déposer un objet",
-          "key": "G"
-        },
-        {
-          "action": "Interagir",
-          "key": "E"
-        },
-        {
-          "action": "Sauter",
-          "key": "Espace"
-        },
-        {
-          "action": "Appuyer pour parler",
-          "key": "V"
-        },
-        {
-          "action": "Pousser",
-          "key": "Clic droit"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Emplacement d'équipement 1",
-          "key": "1"
-        },
-        {
-          "action": "Emplacement d'équipement 2",
-          "key": "2"
-        },
-        {
-          "action": "Emplacement d'équipement 3",
-          "key": "3"
-        },
-        {
-          "action": "Emplacement d'équipement 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventaire",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Depuis le menu titre : ouvrez PARAMÈTRES, puis vérifiez les paramètres du clavier. Utilisez le champ de recherche pour filtrer les lignes de raccourcis clavier."
-    },
-    "contentSettings": {
-      "title": "Paramètres de contenu de Lucid Blocks",
-      "subtitle": "Contenu pour adultes, activation/désactivation de la nudité et préférences Steam",
-      "descriptors": [
-        "Nudité ou contenu sexuel partiel",
-        "Contenu général pour adultes"
-      ],
-      "details": [
-        {
-          "heading": "Ce que les développeurs déclarent",
-          "items": [
-            "Un humain peut apparaître nu en faisant des activités comme se baigner.",
-            "La nudité est censurée et peut être complètement désactivée en option.",
-            "Les gnomes peuvent être démembrés et mourir de manière brutale."
-          ]
-        },
-        {
-          "heading": "Si Steam bloque la page de la communauté",
-          "items": [
-            "Steam peut masquer le hub de la communauté en fonction de vos préférences de contenu.",
-            "Utilisez \"Mettre à jour les préférences de contenu\" de Steam pour ajuster ce que vous autorisez Steam à afficher."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Fabrication et équipement de Lucid Blocks",
-      "subtitle": "Équipez-vous : exemples de fabrication et ce que chaque outil fait",
-      "equipment": [
-        {
-          "item": "Sac à dos",
-          "benefit": "Augmente la capacité de l'inventaire pour plus de butin par course"
-        },
-        {
-          "item": "Gants de gnome",
-          "benefit": "Vous permet d'ouvrir des portes et d'interagir avec plus d'objets"
-        },
-        {
-          "item": "Chaussures à ressort",
-          "benefit": "Empêche les dégâts de chute lors des évasions depuis des hauteurs"
-        },
-        {
-          "item": "Arme",
-          "benefit": "Vous aide à combattre les menaces comme les souris lorsque vous êtes acculé"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Comment la fabrication se connecte au pillage",
-          "items": [
-            "Pendant une course, volez des objets et rapportez-les comme matériaux de fabrication.",
-            "Après l'extraction, les récompenses/matériaux soutiennent de nouvelles fabrications."
-          ]
-        },
-        {
-          "heading": "Amélioration de la base",
-          "items": [
-            "Fabriquez des meubles et améliorez votre maison sur l'île flottante (fonctionnalité du jeu complet)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Butin et objets de Lucid Blocks",
-      "subtitle": "Quoi voler : types d'objets, risque et conseils de transport",
-      "categories": [
-        {
-          "type": "Objets de tâche",
-          "examples": [
-            "Objets requis par le Haut-Gnome pour les objectifs"
-          ]
-        },
-        {
-          "type": "Matériaux de fabrication",
-          "examples": [
-            "Objets ménagers réutilisés en équipement et améliorations de gnome"
-          ]
-        },
-        {
-          "type": "Cibles de méfait",
-          "examples": [
-            "Objets impliqués dans des tâches comme casser ou inonder"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Donnez la priorité à la progression de la tâche, puis remplissez la capacité restante avec des matériaux de fabrication",
-        "Si des menaces sont à proximité, déplacez les objets par petits sauts sûrs plutôt que par de longs transports exposés",
-        "Planifiez l'itinéraire vers l'extraction dans la cour avant la fin du temps imparti"
-      ],
-      "riskLevels": [
-        {
-          "level": "Faible",
-          "description": "Près des entrées ou des coins sûrs"
-        },
-        {
-          "level": "Moyen",
-          "description": "Pièces plus profondes ou près des menaces errantes"
-        },
-        {
-          "level": "Élevé",
-          "description": "Près de la patrouille du propriétaire ou de l'aspirateur robot"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Ennemis et dangers de Lucid Blocks",
-      "subtitle": "Sachez ce qui peut vous attraper",
-      "threats": [
-        {
-          "name": "Le propriétaire",
-          "trigger": "Se faire repérer en cambriolant ou en effectuant des tâches",
-          "behavior": "Il vous poursuit et essaie de vous attraper",
-          "counter": "Restez furtif, brisez les lignes de vue et continuez à bouger en équipe"
-        },
-        {
-          "name": "Chats",
-          "trigger": "S'approcher trop près ou croiser leur chemin",
-          "behavior": "Ils deviennent une menace directe pendant que vous vous faufilez",
-          "counter": "Évitez leurs itinéraires et passez silencieusement"
-        },
-        {
-          "name": "Souris",
-          "trigger": "Entrer dans des zones où les souris errent",
-          "behavior": "Elles menacent les gnomes fragiles pendant les courses",
-          "counter": "Restez vigilant dans les espaces restreints et soyez prêt à vous retirer"
-        },
-        {
-          "name": "Aspirateur robot",
-          "trigger": "Être sur son chemin de nettoyage",
-          "behavior": "Il peut aspirer les gnomes",
-          "counter": "Écoutez-le, restez en dehors de son itinéraire et repositionnez-vous rapidement"
-        },
-        {
-          "name": "Piège du réfrigérateur / four",
-          "trigger": "Se faire attraper par le propriétaire",
-          "behavior": "Vous pouvez être enfermé à l'intérieur ; si les coéquipiers ne vous sauvent pas à temps, vous mourez",
-          "counter": "Signalez immédiatement ; les coéquipiers donnent la priorité à l'itinéraire de sauvetage"
-        },
-        {
-          "name": "Limite de temps",
-          "trigger": "Le minuteur de course atteint la limite",
-          "behavior": "Une tornade d'extraction apparaît dans la cour ; vous devez l'atteindre pour vous échapper",
-          "counter": "Arrêtez de trop piller, regroupez-vous et engagez-vous à l'extraction tôt"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Conseils de furtivité et d'évasion de Lucid Blocks",
-      "subtitle": "Volez plus, mourez moins",
-      "do": [
-        "Restez furtif et mettez-vous à couvert avant d'interagir avec des objets",
-        "Utilisez le travail d'équipe : signalez les menaces et coordonnez les itinéraires",
-        "Sauvez rapidement les coéquipiers lorsque quelqu'un est piégé ou à terre",
-        "Réduisez vos pertes et dirigez-vous vers l'extraction lorsque le minuteur est serré"
-      ],
-      "dont": [
-        "Devenez gourmand lorsque l'extraction approche",
-        "Séparez-vous trop de l'équipe lorsque le propriétaire est actif",
-        "Ignorez les itinéraires de l'aspirateur robot ou les patrouilles d'animaux",
-        "Retardez les sauvetages lorsqu'un coéquipier est enfermé"
-      ],
-      "quickTips": [
-        {
-          "title": "La règle des 3 secondes",
-          "text": "Si vous ne pouvez pas expliquer votre prochain mouvement en 3 secondes, vous êtes sur le point de vous faire repérer."
-        },
-        {
-          "title": "Sauvetage d'abord",
-          "text": "Un sauvetage rapide maintient la course en vie ; le pillage peut attendre."
-        },
-        {
-          "title": "Discipline d'extraction",
-          "text": "Regroupez-vous tôt et engagez-vous dans la tornade avant que la panique ne commence."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Améliorations de la maison de Lucid Blocks",
-      "subtitle": "Fabriquez, construisez, améliorez",
-      "branches": [
-        {
-          "branch": "Stockage",
-          "summary": "Transportez plus et rapportez plus",
-          "items": [
-            "Sac à dos (extension d'inventaire)"
-          ]
-        },
-        {
-          "branch": "Utilité",
-          "summary": "Interagissez plus efficacement avec la maison",
-          "items": [
-            "Gants de gnome (vous permet d'ouvrir des portes et plus encore)"
-          ]
-        },
-        {
-          "branch": "Mobilité",
-          "summary": "Déplacez-vous plus en sécurité dans les espaces verticaux",
-          "items": [
-            "Chaussures à ressort (réduisent les dégâts de chute)"
-          ]
-        },
-        {
-          "branch": "Défense",
-          "summary": "Gérez les petites menaces si nécessaire",
-          "items": [
-            "Armes (pour les menaces comme les souris)"
-          ]
-        },
-        {
-          "branch": "Base d'attache",
-          "summary": "Fabriquez des meubles et améliorez votre maison sur l'île flottante",
-          "items": [
-            "Améliorations de meubles fonctionnels"
-          ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Stockage en premier",
-          "reason": "Plus de capacité de transport améliore le rendement de chaque course"
-        },
-        {
-          "rank": 2,
-          "title": "Utilité ensuite",
-          "reason": "De meilleures interactions réduisent le temps passé dans les zones dangereuses"
-        },
-        {
-          "rank": 3,
-          "title": "Mobilité pour la survie",
-          "reason": "La sécurité contre les chutes prévient les morts évitables lors de l'évasion"
-        }
-      ]
-    },
-    "community": {
-      "title": "Communauté et Discord de Lucid Blocks",
-      "subtitle": "Trouvez des équipes, des mises à jour, des discussions",
-      "links": [
-        {
-          "title": "Discord officiel",
-          "subtitle": "Annonces • Commentaires • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "X officiel (Twitter)",
-          "subtitle": "Mises à jour et publications des développeurs",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Hub de la communauté Steam",
-          "subtitle": "Discussions • Captures d'écran • Guides",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Page du magasin Steam",
-          "subtitle": "Liste de souhaits • Démo • Description officielle",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Configuration des mods et de BepInEx de Lucid Blocks",
-      "subtitle": "Installez les mods proprement",
+    "unwellWinterGamesHowToWatch": {
+      "title": "Comment regarder Unwell Winter Games",
+      "subtitle": "L'émission est diffusée gratuitement sur YouTube avec un déploiement quotidien des épisodes. Ce guide explique par où commencer et quand sortira le prochain épisode.",
       "steps": [
         {
           "step": 1,
-          "title": "Installer BepInEx 5",
-          "text": "Téléchargez BepInEx 5 et extrayez-le dans le dossier racine du jeu."
+          "label": "Allez sur la chaîne officielle Unwell",
+          "details": "Unwell Winter Games est diffusé sur la chaîne YouTube officielle Unwell plutôt que sur une plateforme tierce.",
+          "href": "https://www.youtube.com/@Unwell"
         },
         {
           "step": 2,
-          "title": "Lancez une fois pour générer des dossiers",
-          "text": "Démarrez le jeu jusqu'au menu principal, puis fermez-le. Cela crée la structure de dossiers BepInEx."
+          "label": "Utilisez la playlist Winter Games",
+          "details": "La playlist officielle regroupe la bande-annonce et les sorties d'épisodes en un seul parcours de visionnage, le moyen le plus simple de suivre le déploiement.",
+          "href": "https://www.youtube.com/playlist?list=PLMIEtpbkVa4KXWK1pUfsomc60VZFquOBv"
         },
         {
           "step": 3,
-          "title": "Installer des mods",
-          "text": "Placez les fichiers .dll des mods dans le dossier plugins."
+          "label": "Commencez par la bande-annonce ou l'Épisode 1",
+          "details": "Les nouveaux spectateurs peuvent commencer par la bande-annonce officielle pour un aperçu d'une minute ou passer directement à l'Épisode 1.",
+          "href": "https://www.youtube.com/watch?v=uuAjZ1XN1aw"
         },
         {
           "step": 4,
-          "title": "Vérifiez l'installation",
-          "text": "Relancez le jeu et confirmez que la fonctionnalité du mod est disponible (bascule de la caméra, curseur de l'interface utilisateur, etc.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Installation Steam typique",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Dossier Plugins",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Pour les fonctionnalités de jeu en coopération modifiées, tout le monde doit installer BepInEx et les mêmes mods de gameplay."
-    },
-    "popularMods": {
-      "title": "Mods populaires de Lucid Blocks",
-      "subtitle": "Meilleures sélections de la communauté",
-      "mods": [
-        {
-          "title": "Menu de spawn",
-          "tags": [
-            "Amusant",
-            "Outils",
-            "Hôte uniquement"
-          ],
-          "description": "Ajoute un menu de spawn d'objets avec un mode de vol.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Ouvrir le menu de spawn"
-            },
-            {
-              "key": "V",
-              "action": "Activer le vol"
-            }
-          ],
-          "note": "Hôte uniquement ; les autres n'ont pas besoin de l'installer pour rejoindre."
-        },
-        {
-          "title": "Vue à la troisième personne",
-          "tags": [
-            "Caméra",
-            "QoL"
-          ],
-          "description": "Ajoute une vue de caméra à la troisième personne.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Basculer entre la première personne / la troisième personne"
-            }
-          ]
-        },
-        {
-          "title": "Plus de chapeaux",
-          "tags": [
-            "Cosmétique"
-          ],
-          "description": "Ajoute des options de couleur de chapeau supplémentaires pour les gnomes.",
-          "colors": [
-            "Bleu",
-            "Vert",
-            "Orange",
-            "Violet",
-            "Noir",
-            "Rouge"
-          ]
-        },
-        {
-          "title": "DOOM à la télé",
-          "tags": [
-            "Amusant",
-            "Mini-jeu"
-          ],
-          "description": "Jouez à DOOM original sur un téléviseur dans le jeu, avec le son provenant du haut-parleur du téléviseur.",
-          "highlights": [
-            "Fonctionne en multijoueur afin que d'autres joueurs puissent regarder le même téléviseur",
-            "Inclut les données de l'épisode de DOOM en shareware (Épisode 1)"
-          ]
+          "label": "Suivez le calendrier de sortie quotidien",
+          "details": "La série débute le 6 avril 2026 et se déploie quotidiennement jusqu'au 9 avril. Les épisodes sortent à 9h00 PT chaque jour.",
+          "href": "https://www.youtube.com/@Unwell"
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Prise en charge de la manette de Lucid Blocks",
-      "subtitle": "Jeu complet à la manette",
-      "native": {
-        "title": "Paramètres dans le jeu",
-        "description": "Utilisez les menus de liaisons/paramètres du jeu pour ajuster les commandes."
-      },
-      "mod": {
-        "title": "Mod de prise en charge de la manette",
-        "description": "Ajoute une prise en charge complète de la manette/du contrôleur et un curseur d'interface utilisateur pour la navigation dans les menus."
-      },
-      "features": [
-        "Commandes de jeu complètes : mouvement, caméra, combat, interactions et capacités mappés à la manette",
-        "Navigation avec le curseur de l'interface utilisateur : un curseur de cercle blanc apparaît dans les menus ; appuyez sur A pour cliquer et faire glisser les curseurs",
-        "Navigation dans l'inventaire : maintenez Select enfoncé pour ouvrir l'inventaire ; utilisez le stick droit pour naviguer tout en le maintenant enfoncé",
-        "Menus déroulants : le stick droit fait défiler les recettes de fabrication, les paramètres et autres zones d'interface utilisateur déroulantes",
-        "Défilement de la barre d'accès rapide : la croix directionnelle gauche/droite fait défiler 4 emplacements de la barre d'accès rapide",
-        "Commutation d'entrée transparente : détecte automatiquement le clavier/la souris par rapport à la manette"
+    "unwellWinterGamesTrailer": {
+      "title": "Bande-annonce de Unwell Winter Games",
+      "subtitle": "La promotion présente Unwell Winter Games comme une cocotte-minute de télé-réalité hivernale : un chalet de luxe, des défis quotidiens, des alliances rapides et un casting délibérément chaotique.",
+      "items": [
+        {
+          "label": "Bande-annonce officielle",
+          "type": "video",
+          "runtime": "1:17",
+          "summary": "Le teaser officiel présente les tout premiers Unwell Winter Games, plonge les spectateurs dans le décor montagneux de l'Utah et donne un aperçu du mélange des candidats, des défis hivernaux et du ton riche en confrontations.",
+          "href": "https://www.youtube.com/watch?v=uuAjZ1XN1aw"
+        },
+        {
+          "label": "Ce que la bande-annonce prépare",
+          "type": "editorial",
+          "summary": "La couverture du lancement présente la série comme le pari de compétition de télé-réalité d'Alex Cooper sur YouTube : des personnalités polarisantes vivant ensemble à Park City et s'affrontant pendant quatre jours.",
+          "href": "https://www.hollywoodreporter.com/business/digital/alex-cooper-unwell-winter-games-cast-youtube-reality-show-1236552485/"
+        },
+        {
+          "label": "Le moment le plus commenté de la bande-annonce",
+          "type": "editorial",
+          "summary": "L'introspection face caméra de Dakota Mortensen et la promesse de drames au chalet, de dynamiques de groupe tendues et de défis à la fois mentaux et physiques ont généré le plus de discussions avant la sortie.",
+          "href": "https://people.com/dakota-mortensen-admits-to-bad-choices-in-past-in-unwell-winter-games-trailer-11938321"
+        }
       ]
     },
-    "playerCount": {
-      "title": "Nombre de joueurs et tendance de Lucid Blocks",
-      "subtitle": "Instantané de popularité en direct",
-      "stats": {
-        "now": {
-          "value": "6 047",
-          "label": "Joueurs en ce moment"
+    "unwellWinterGamesReleaseDate": {
+      "title": "Date de sortie de Unwell Winter Games",
+      "subtitle": "Le déploiement de quatre épisodes se déroule quotidiennement, de l'annonce du casting à la finale. Suivez la chronologie complète, de la révélation au générique de fin.",
+      "items": [
+        {
+          "date": "30 mars 2026",
+          "label": "Annonce du casting",
+          "status": "annoncé",
+          "details": "La couverture de la révélation du casting par Alex Cooper commence à circuler, présentant la sélection initiale et l'organisation de la compétition à Park City."
         },
-        "peak24h": {
-          "value": "13 859",
-          "label": "Pic sur 24 heures"
+        {
+          "date": "31 mars 2026",
+          "label": "Sortie de la bande-annonce officielle",
+          "status": "sorti",
+          "details": "La première bande-annonce arrive et lance la principale campagne de promotion avant la première de la série."
         },
-        "allTimePeak": {
-          "value": "15 272",
-          "label": "Pic de tous les temps"
+        {
+          "date": "6 avril 2026",
+          "label": "Première de la série — Épisode 1",
+          "status": "Jour de lancement 1",
+          "details": "Unwell Winter Games débute sur la chaîne YouTube officielle Unwell à 9h00 PT."
+        },
+        {
+          "date": "7 avril 2026",
+          "label": "Épisode 2",
+          "status": "Jour de lancement 2",
+          "details": "Le deuxième épisode continue le format de sortie quotidienne à 9h00 PT."
+        },
+        {
+          "date": "8 avril 2026",
+          "label": "Épisode 3",
+          "status": "Jour de lancement 3",
+          "details": "La chaîne officielle poursuit la série de sorties quotidiennes à 9h00 PT."
+        },
+        {
+          "date": "9 avril 2026",
+          "label": "Épisode 4 — Finale",
+          "status": "jour de la finale",
+          "details": "Le déploiement de quatre épisodes se termine jeudi, achevant le calendrier de la semaine de lancement de la série."
         }
-      },
-      "milestones": [
+      ]
+    },
+    "unwellWinterGamesEpisodeGuide": {
+      "title": "Guide des épisodes de Unwell Winter Games",
+      "eyebrow": "Saison 1",
+      "subtitle": "La saison 1 se déploie comme un événement YouTube de quatre épisodes. Ce guide regroupe l'ordre de sortie, le statut des épisodes et les moments clés de l'histoire dans un centre d'information rapide à consulter.",
+      "intro": "Unwell Winter Games a débuté sur la chaîne YouTube de Unwell le 6 avril 2026, avec de nouveaux épisodes sortant quotidiennement jusqu'au 9 avril. Les deux premiers épisodes sont déjà en ligne, tandis que la seconde moitié de la saison suit le même modèle de sortie jour après jour.",
+      "items": [
         {
-          "date": "30 janvier 2026",
-          "title": "Démo sortie sur Steam",
-          "detail": "La démo publique est devenue disponible sur PC (Steam)."
+          "episode": "Épisode 1",
+          "release_date": "6 avril 2026",
+          "status": "Sorti",
+          "title": "Dévalez les pentes, analysez l'ambiance, ne faites confiance à personne",
+          "focus": "La série s'ouvre sur l'installation au chalet, les premières impressions, les premiers flirts et un défi en motoneige qui rend immédiatement chaotique la dynamique du groupe.",
+          "watch_href": "https://www.youtube.com/watch?v=kHFPi7euy4A"
         },
         {
-          "date": "8 février 2026",
-          "title": "Pic de tous les temps atteint",
-          "detail": "La démo a atteint son plus grand nombre de joueurs simultanés enregistré."
+          "episode": "Épisode 2",
+          "release_date": "7 avril 2026",
+          "status": "Sorti",
+          "title": "Les alliances se forment et personne n'est à l'abri",
+          "focus": "Le deuxième jour met la stratégie au premier plan, durcit les lignes d'équipe et transforme les tensions relationnelles en l'un des moteurs principaux de l'émission.",
+          "watch_href": "https://www.youtube.com/watch?v=H0yHgEgaGC8"
+        },
+        {
+          "episode": "Épisode 3",
+          "release_date": "8 avril 2026",
+          "status": "Sorti",
+          "title": "Épisode 3",
+          "focus": "Le troisième volet poursuit le déploiement quotidien à 12h00 ET, menant la saison vers son point d'escalade de milieu de semaine.",
+          "watch_href": "https://www.youtube.com/playlist?list=PLMIEtpbkVa4KXWK1pUfsomc60VZFquOBv"
+        },
+        {
+          "episode": "Épisode 4",
+          "release_date": "9 avril 2026",
+          "status": "Programmé",
+          "title": "Épisode 4 — Finale",
+          "focus": "La finale de la saison clôture l'événement de quatre jours et achève la période de sortie du 6 au 9 avril sur la chaîne YouTube Unwell.",
+          "watch_href": "https://www.youtube.com/playlist?list=PLMIEtpbkVa4KXWK1pUfsomc60VZFquOBv"
+        }
+      ]
+    },
+    "unwellWinterGamesShowmances": {
+      "title": "Showmances de Unwell Winter Games",
+      "eyebrow": "Relations",
+      "subtitle": "Les deux premiers épisodes ont déjà présenté des couples établis, un triangle amoureux centré sur Hallie et une rupture rapide. Ce suivi suit le côté romantique de l'émission d'aussi près que la compétition.",
+      "intro": "Unwell Winter Games a été filmé sur quatre jours à partir du 1er février 2026, et les intrigues romantiques commencent presque immédiatement. Après les épisodes 1 et 2, quatre couples se distinguent comme ceux que les spectateurs sont les plus susceptibles de rechercher, de débattre et de revoir.",
+      "items": [
+        {
+          "stage": "Avant le chalet",
+          "pair": "Louis Russell & Huda Mustafa",
+          "status": "En couple",
+          "statusColor": "green",
+          "details": "Louis et Huda ont rejoint l'émission en tant que couple établi. Dès l'épisode 2, Huda décrit ouvertement leur relation comme sérieuse et tournée vers l'avenir."
+        },
+        {
+          "stage": "Avant le chalet",
+          "pair": "Joe Amabile & Serena Pitt",
+          "status": "Mariés",
+          "statusColor": "green",
+          "details": "Joe et Serena arrivent comme le couple le plus stable de la saison. Ils sont le seul couple marié du casting et constituent la relation la plus solide de l'émission."
+        },
+        {
+          "stage": "Épisodes 1–2",
+          "pair": "Andrew Vetter & Hallie Batchelder",
+          "status": "Showmance en cours",
+          "statusColor": "theme",
+          "details": "Andrew, membre de la production de Unwell devenu candidat de dernière minute, se lie rapidement avec Hallie. Après l'avoir remplacée lors d'un moment de faiblesse et être revenu plus tard, les deux s'embrassent et deviennent le flirt actif le plus mouvementé de l'émission."
+        },
+        {
+          "stage": "Épisodes 1–2",
+          "pair": "Dakota Mortensen & Hallie Batchelder",
+          "status": "Vite essoufflé",
+          "statusColor": "muted",
+          "details": "Hallie explore brièvement une connexion avec Dakota et passe du temps avec lui dans le jacuzzi, mais elle décide plus tard qu'il n'y a aucune alchimie et le duo perd son élan."
+        }
+      ]
+    },
+    "unwellWinterGamesHudaAndLouis": {
+      "title": "Unwell Winter Games : Huda et Louis",
+      "eyebrow": "Couple influent",
+      "subtitle": "Ils sont arrivés comme l'un des seuls couples formés avant l'émission, et l'épisode 2 a transformé leur relation en l'une des intrigues phares de la saison.",
+      "intro": "Huda Mustafa et Louis Russell font d'excellents sujets de une car les spectateurs ne les découvrent pas comme des inconnus dans le chalet. Ils arrivent avec une relation existante, des antécédents de télé-réalité reconnaissables et suffisamment de drames extérieurs pour que chaque nouvel épisode donne à leur histoire un nouvel angle de recherche.",
+      "items": [
+        {
+          "label": "Statut actuel",
+          "headline": "Ils sont entrés dans le chalet en tant que vrai couple",
+          "text": "Après les deux premiers épisodes, Louis Russell et Huda Mustafa restent en couple plutôt que de former une nouvelle showmance."
+        },
+        {
+          "label": "Pourquoi les spectateurs les connaissent",
+          "headline": "Quand Love Island USA rencontre Too Hot to Handle",
+          "text": "Huda est connue pour la saison 7 de Love Island USA, tandis que Louis Russell est connu pour Too Hot to Handle et Perfect Match."
+        },
+        {
+          "label": "Chronologie hors émission",
+          "headline": "Leur romance est devenue officielle sur Instagram en septembre 2025",
+          "text": "Huda a confirmé la relation sur Instagram le 21 septembre 2025, et Louis a également publié sa propre confirmation."
+        },
+        {
+          "label": "Citation de l'épisode 2",
+          "headline": "Ils parlent déjà d'un avenir ensemble",
+          "text": "Dans l'émission, Huda déclare : « Nous avons parlé de mariage, nous avons parlé d'enfants, nous avons parlé de toutes ces choses importantes. »"
+        },
+        {
+          "label": "Pourquoi cette intrigue est importante",
+          "headline": "Ils apportent à la fois de la romance et de la pression dans le jeu",
+          "text": "L'épisode 2 pousse Huda à expliquer à quel point leur relation est sérieuse, les faisant passer de couple de second plan à l'une des principales intrigues émotionnelles de l'émission."
+        }
+      ]
+    },
+    "unwellWinterGamesDakotaMortensen": {
+      "title": "Unwell Winter Games : Dakota Mortensen",
+      "eyebrow": "Profil du candidat",
+      "subtitle": "Dakota arrive avec plus de contexte extérieur que presque n'importe qui d'autre dans le casting. Ce profil fait le lien entre son passé en télé-réalité et son rôle actuel dans les premiers épisodes.",
+      "intro": "Pour de nombreux spectateurs, Dakota Mortensen n'est pas un simple candidat de plus dans une compétition de télé-réalité hivernale. Il participe à Unwell Winter Games en tant que figure de Secret Lives of Mormon Wives, ex de Taylor Frankie Paul, et l'un des noms les plus commentés lors de la présentation du casting.",
+      "items": [
+        {
+          "section": "Contexte",
+          "summary": "Il était déjà un nom connu de la télé-réalité avant la première de l'émission.",
+          "content": "Dakota Mortensen est l'ex de Taylor Frankie Paul et l'un des 16 candidats clivants de Unwell Winter Games. Il a également un enfant avec Paul, ce qui a fait de lui l'un des noms les plus reconnus du casting avant la première."
+        },
+        {
+          "section": "Pourquoi il est controversé",
+          "summary": "Son nom est resté dans l'actualité en raison d'une affaire judiciaire et médiatique retentissante hors émission.",
+          "content": "Des enquêtes distinctes pour agression domestique impliquant Mortensen et Paul ont été ouvertes par les services de police de l'Utah en février 2026. Début avril, il faisait la une des journaux en dehors de Unwell Winter Games alors que d'autres apparitions en télé-réalité étaient réexaminées à la lumière de cette même affaire."
+        },
+        {
+          "section": "Positionnement dans la bande-annonce",
+          "summary": "La présentation officielle s'appuie sur sa réputation plutôt que de la cacher.",
+          "content": "Dans la couverture de la bande-annonce officielle, Dakota déclare : « J'ai fait de mauvais choix dans mon passé », ce qui fait de lui l'un des candidats les plus controversés du casting avant même le début de l'épisode 1."
+        },
+        {
+          "section": "Ce qu'il fait dans l'émission",
+          "summary": "Sa première véritable intrigue à l'écran est un flirt de courte durée avec Hallie Batchelder.",
+          "content": "Hallie a d'abord envisagé une connexion avec Dakota et a passé du temps avec lui dans le jacuzzi, mais a décidé plus tard qu'il n'y avait aucune alchimie et le flirt s'est arrêté là. Il reste actif dans la compétition tout au long de la seconde moitié de la saison."
+        }
+      ]
+    },
+    "unwellWinterGamesAnnaDelvey": {
+      "eyebrow": "Pleins feux sur le casting",
+      "title": "Unwell Winter Games Anna Delvey",
+      "subtitle": "Anna Delvey arrive avec une notoriété plus grande que presque n'importe qui d'autre dans le casting. Son moment avec le bracelet électronique dans le premier épisode donne instantanément aux spectateurs une raison concrète de rechercher sa page.",
+      "items": [
+        {
+          "title": "Pourquoi les spectateurs la connaissent déjà",
+          "meta": "Contexte",
+          "description": "Anna Delvey, née Anna Sorokin, s'est fait connaître internationalement après s'être fait passer pour une riche héritière allemande à New York. Son affaire a ensuite inspiré la série Netflix Inventing Anna, c'est pourquoi elle rejoint la série comme l'un des noms les plus reconnaissables du casting."
+        },
+        {
+          "title": "Ce qui la distingue dans cette émission",
+          "meta": "L'accroche de l'épisode 1",
+          "description": "Dans la première, Delvey doit s'absenter plus tôt pour charger son bracelet électronique après que l'altitude de Park City l'a déchargé. Cette scène devient l'un des premiers moments vraiment mémorables des Unwell Winter Games dans l'épisode."
+        },
+        {
+          "title": "Pourquoi elle correspond au concept du casting",
+          "meta": "Facteur de polarisation",
+          "description": "Unwell Winter Games est construit autour de personnalités controversées et très connues, et Delvey correspond immédiatement à ce profil. La couverture médiatique avant le lancement l'a positionnée à plusieurs reprises comme l'une des têtes d'affiche les plus importantes de la sélection."
+        },
+        {
+          "title": "Ce que les spectateurs qui la recherchent ici veulent",
+          "meta": "Intention de recherche",
+          "description": "Les spectateurs qui recherchent Anna Delvey dans le contexte des Unwell Winter Games veulent généralement une explication rapide : son histoire réelle, comment elle est entrée dans la série et ce qui s'est passé lors de ses premières scènes dans le chalet."
+        }
+      ]
+    },
+    "unwellWinterGamesFilmingLocation": {
+      "eyebrow": "Guide des lieux",
+      "title": "Lieu de tournage des Unwell Winter Games",
+      "subtitle": "La série est filmée à Park City, dans l'Utah, avec un chalet de luxe et un cadre montagneux intégrés directement au format. Le lieu n'est pas seulement un décor — il façonne le style visuel, la conception des défis et les tensions du casting.",
+      "items": [
+        {
+          "title": "Park City, Utah",
+          "caption": "La couverture du lancement situe l'émission à Park City, où l'intégralité de la compétition Unwell Winter Games se déroule sur quatre jours consécutifs."
+        },
+        {
+          "title": "Camp de base dans un chalet de luxe",
+          "caption": "Le casting vit ensemble dans un chalet de luxe, ce qui transforme le lieu à la fois en centre de défis et en espace social sous haute pression pour toute la série."
+        },
+        {
+          "title": "Un cadre de défis axé sur la montagne",
+          "caption": "La bande-annonce et les descriptions des épisodes font de l'environnement montagneux enneigé une partie intégrante de la compétition elle-même, plutôt qu'un simple décor derrière le casting."
+        },
+        {
+          "title": "L'altitude change l'histoire",
+          "caption": "Le premier épisode montre que l'altitude de Park City affecte directement l'expérience — quand Anna Delvey part plus tôt pour charger son bracelet électronique après que l'altitude l'a déchargé."
+        }
+      ]
+    },
+    "unwellWinterGamesHostAndCommentators": {
+      "eyebrow": "Équipe à l'écran",
+      "title": "Animateur et commentateurs des Unwell Winter Games",
+      "subtitle": "Adam Waheed dirige la compétition tandis que Grace O'Malley et Graydon Cutler encadrent le chaos. L'équipe de présentation aide les nouveaux spectateurs à comprendre rapidement le format des Unwell Winter Games.",
+      "items": [
+        {
+          "title": "Adam Waheed",
+          "meta": "Animateur",
+          "description": "Adam Waheed, également connu en ligne sous le nom d'Adam W., est l'animateur principal des Unwell Winter Games. Son expérience en tant que créateur de comédies à grande échelle en fait un excellent choix pour une compétition dynamique qui repose autant sur la personnalité que sur la structure du jeu."
+        },
+        {
+          "title": "Grace O'Malley",
+          "meta": "Commentatrice",
+          "description": "Grace O'Malley rejoint les Unwell Winter Games en tant que commentatrice. Son expérience dans la comédie et les podcasts donne à l'émission une voix axée sur les réactions qui correspond à l'énergie désordonnée et typique d'Internet du casting."
+        },
+        {
+          "title": "Graydon Cutler",
+          "meta": "Commentateur",
+          "description": "Graydon Cutler apparaît aux côtés de Grace O'Malley en tant que commentateur. Sa présence axée sur la création de contenu correspond à une série construite autour d'influenceurs, de noms de la télé-réalité et d'une audience très connectée."
+        },
+        {
+          "title": "Comment fonctionne l'équipe de présentation",
+          "meta": "Adaptation au format",
+          "description": "L'émission répartit clairement les rôles : Adam gère les étapes de la compétition Unwell Winter Games à l'écran, tandis que Grace et Graydon aident à cadrer la tension, le comportement du casting et les retombées des défis pour les spectateurs qui suivent l'intrigue."
+        }
+      ]
+    },
+    "unwellWinterGamesRules": {
+      "eyebrow": "Comment ça marche",
+      "title": "Règles des Unwell Winter Games",
+      "subtitle": "Le format est basé sur des équipes, rapide et conçu pour le spectacle. Seize personnalités de la télé-réalité et créateurs s'affrontent selon un calendrier court et intense à Park City avec de l'argent en jeu.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Seize candidats entrent dans une installation hivernale commune",
+          "description": "La série rassemble 16 personnalités de la télé-réalité et créateurs numériques, vivant et concourant tous depuis un chalet de luxe à Park City, dans l'Utah."
+        },
+        {
+          "step": "02",
+          "title": "Le casting est divisé en deux équipes",
+          "description": "La compétition Unwell Winter Games divise les joueurs en deux groupes : une équipe violette et une équipe bleue, qui s'affrontent tout au long de l'événement de quatre jours."
+        },
+        {
+          "step": "03",
+          "title": "Les défis mélangent effort physique et pression sociale et mentale",
+          "description": "Pendant quatre jours, les candidats font face à un ensemble rotatif de défis mentaux et physiques plutôt qu'à un format de jeu basé sur une seule compétence."
+        },
+        {
+          "step": "04",
+          "title": "De l'argent est en jeu pendant la compétition",
+          "description": "Le format des Unwell Winter Games inclut des prix individuels en espèces pendant les défis, de sorte que tous les gains ne sont pas réservés à la toute fin."
+        },
+        {
+          "step": "05",
+          "title": "Une équipe remporte le prix d'équipe final",
+          "description": "Après les quatre jours, le format se termine avec une équipe remportant le prix d'équipe final des Unwell Winter Games, tandis que les alliances et les rivalités façonnent le parcours."
+        }
+      ]
+    },
+    "unwellWinterGamesTeams": {
+      "eyebrow": "Format des équipes",
+      "title": "Équipes de Unwell Winter Games",
+      "subtitle": "La répartition par couleurs donne à la saison sa structure la plus claire, mais les deux premiers épisodes montrent clairement que la confiance est bien plus instable que les maillots.",
+      "intro": "Unwell Winter Games repose sur un moteur simple : deux équipes de couleurs s'affrontant pendant quatre jours de tournage à Park City, Utah, avec un prix d'équipe final s'ajoutant à des opportunités de gains individuels distinctes.",
+      "items": [
+        {
+          "label": "Format de base",
+          "details": "La série divise le chalet en équipes Bleue et Pourpre sur quatre jours de tournage à Park City, Utah. Un prix d'équipe final s'ajoute à des prix individuels en espèces, de sorte que la coopération compte mais ne semble jamais totalement désintéressée.",
+          "viewer_value": "C'est pourquoi chaque épisode peut fonctionner à la fois comme un récapitulatif de style sportif et un récapitulatif de drame social."
+        },
+        {
+          "label": "Réinitialisation de l'épisode 1",
+          "details": "Le premier jour commence par un défi en motoneige, une tension lors du repêchage des équipes et un rebondissement changeant la donne concernant le maillon faible. Le format établit les équipes immédiatement au lieu d'introduire les spectateurs lentement.",
+          "viewer_value": "Les spectateurs apprennent tout de suite que le statut d'une équipe peut s'élever ou s'effondrer en un seul épisode."
+        },
+        {
+          "label": "Premier sacrifice majeur",
+          "details": "Hallie Batchelder est désignée comme le maillon faible de son équipe, et Andrew Vetter prend sa place avant d'être éliminé. Ce moment transforme un simple défi en l'une des premières intrigues émotionnelles de la saison.",
+          "viewer_value": "La page de l'équipe est importante car la répartition par couleurs a des conséquences réelles, et n'est pas seulement une image de marque décorative."
+        },
+        {
+          "label": "Direction de l'épisode 2",
+          "details": "Dès le deuxième jour, les discussions sur les alliances ne sont plus un simple bruit de fond. Le premier défi en équipe place la confiance, les conversations privées et les couples déjà formés au centre de la compétition.",
+          "viewer_value": "Le duel Bleu contre Pourpre devient une carte sociale en direct pour la semaine, et pas seulement une étiquette de production."
+        },
+        {
+          "label": "Pourquoi les équipes comptent",
+          "details": "Le prisme de l'équipe est le moyen le plus simple d'organiser les retombées des défis, les débordements romantiques et les changements de pouvoir après chaque sortie d'épisode. Cela crée un espace naturel pour les résultats d'équipe, les moments forts et les mouvements du casting en un seul endroit.",
+          "viewer_value": "C'est la page que les spectateurs ouvrent lorsqu'ils veulent comprendre l'émission en un coup d'œil."
+        }
+      ]
+    },
+    "unwellWinterGamesAlexCooper": {
+      "eyebrow": "Focus sur la créatrice",
+      "title": "Unwell Winter Games Alex Cooper",
+      "subtitle": "Cette page capture l'histoire plus vaste derrière l'émission : Unwell Winter Games fait partie de l'évolution majeure de Alex Cooper, passant d'animatrice de podcast à opératrice de médias multi-facettes.",
+      "intro": "Une grande partie du trafic de recherche provient d'Alex Cooper plutôt que du titre de l'émission lui-même. La version la plus percutante de cette page est une chronologie claire montrant comment Alex Cooper a transformé Unwell, d'une plateforme de créateurs en une entreprise englobant des podcasts, de la production non scénarisée, du travail de marque et de la télé-réalité diffusée directement sur YouTube.",
+      "items": [
+        {
+          "date": "Août 2023",
+          "headline": "Lancement de Unwell Network",
+          "description": "Alex Cooper s'étend au-delà d'un seul podcast à succès et commence à bâtir Unwell comme un réseau axé sur les créateurs, centré sur des personnalités natives d'Internet et des formats audio longs."
+        },
+        {
+          "date": "Mars 2025",
+          "headline": "Unwell Productions décroche sa première série télévisée non scénarisée",
+          "description": "Hulu annonce Overboard for Love, marquant le premier projet télévisé sous Unwell Productions et montrant que la marque s'oriente vers des formats non scénarisés structurés, et pas seulement des podcasts."
+        },
+        {
+          "date": "Oct 2025",
+          "headline": "L'agence créative Unwell devient opérationnelle",
+          "description": "L'entreprise s'élargit à nouveau avec une branche créative et de marque interne, étendant le nom Unwell aux campagnes, aux événements et aux productions originales."
+        },
+        {
+          "date": "Mars 2026",
+          "headline": "Unwell Winter Games présenté comme une stratégie directe au public",
+          "description": "La couverture médiatique spécialisée positionne Unwell Winter Games comme faisant partie de la poussée de Unwell vers du contenu premium entièrement auto-produit et distribué via son propre écosystème YouTube."
+        },
+        {
+          "date": "Avr 2026",
+          "headline": "L'ère de la programmation de télé-réalité arrive à l'écran",
+          "description": "L'épisode 1 est diffusé en première sur la chaîne YouTube de Unwell, transformant Alex Cooper de star de podcast et productrice exécutive en force motrice derrière le lancement d'une émission de télé-réalité complète sous sa propre marque de média."
+        }
+      ]
+    },
+    "unwellWinterGamesEpisode1Recap": {
+      "eyebrow": "Récapitulatif de l'épisode",
+      "title": "Récapitulatif de l'épisode 1 de Unwell Winter Games",
+      "subtitle": "Le premier épisode introduit le ton de l'émission d'un seul coup : spectacle de sports d'hiver, casting chaotique, classement social rapide et un rebondissement qui rend la compétition immédiatement personnelle.",
+      "intro": "L'épisode 1 est la page que les spectateurs occasionnels recherchent lorsqu'ils veulent que tout l'épisode de lancement soit réduit aux moments qui ont vraiment compté. Le récapitulatif équilibre la mise en place de la compétition avec les moments viraux et les prémices de relations qui ont suscité la première vague de conversations en ligne.",
+      "items": [
+        {
+          "title": "L'émission s'ouvre en mode chaos total",
+          "summary": "Le premier épisode plonge le casting dans un luxueux chalet de Park City et définit immédiatement le ton : compétition, spectacle et potins.",
+          "content": "L'épisode 1 ne perd pas de temps en introductions lentes. Il veut que les spectateurs rencontrent le casting à travers la pression, les réactions et l'énergie des premières impressions plutôt que par des biographies lisses."
+        },
+        {
+          "title": "Les motoneiges donnent le ton pour le premier jour",
+          "summary": "Le premier grand moment est un défi en motoneige qui mélange visuels de sports d'hiver et pression sociale.",
+          "content": "L'événement fonctionne à la fois comme une ouverture de compétition et un tri des personnalités. Qui semble intrépide, qui panique et qui commence à parler stratégie devient immédiatement une partie de l'histoire."
+        },
+        {
+          "title": "Le repêchage des équipes fait de la sélection un élément du drame",
+          "summary": "Avant que la maison ne puisse s'installer, le format des équipes de couleur force les gens à évaluer le statut, l'alchimie et l'utilité en temps réel.",
+          "content": "Cette énergie de repêchage est importante car Unwell Winter Games est construit autour de la perception. Être désiré, ignoré ou mis en doute devient le carburant social pour le reste de l'épisode."
+        },
+        {
+          "title": "Anna Delvey crée le premier moment viral instantané",
+          "summary": "Anna doit partir plus tôt pour charger son bracelet électronique émis par l'ICE après qu'il a perdu de la puissance à cause de l'altitude de l'Utah.",
+          "content": "La scène s'impose comme le moment phare du premier épisode. Elle rappelle aux spectateurs que l'émission vend de la notoriété et de l'imprévisibilité aussi agressivement qu'elle vend de la compétition."
+        },
+        {
+          "title": "Le rebondissement du maillon faible change le centre émotionnel",
+          "summary": "Hallie Batchelder est désignée comme le maillon faible de son équipe, et Andrew Vetter prend sa place avant d'être éliminé.",
+          "content": "Ce sacrifice donne à l'épisode 1 une dimension émotionnelle plus claire qu'un premier épisode normal. Il lance également la connexion Hallie-Andrew qui se poursuit directement dans l'épisode 2."
+        },
+        {
+          "title": "Le triangle de Hallie est mis en place tôt",
+          "summary": "Hallie a une alchimie visible avec Andrew, tandis que Dakota Mortensen est présenté comme une alternative tentante.",
+          "content": "Le premier épisode se termine avec la romance positionnée comme un élément du plateau de jeu. Cette décision maintient l'utilité de la page de récapitulatif même pour les spectateurs qui se soucient plus de la dynamique de la maison que des résultats des défis."
+        }
+      ]
+    },
+    "unwellWinterGamesEpisode2Recap": {
+      "eyebrow": "Résumé de l'épisode",
+      "title": "Résumé de l'épisode 2 d'Unwell Winter Games",
+      "subtitle": "Le deuxième épisode est celui où l'émission cesse de ressembler à un simple lancement de nouveauté pour commencer à se comporter comme un véritable événement de téléréalité d'une semaine, avec des conflits récurrents et des enjeux relationnels.",
+      "intro": "Une page solide pour l'épisode 2 doit faire plus que résumer les défis. Elle doit expliquer comment l'échiquier social a évolué, pourquoi la confession la plus citée de la journée était importante, et quelles relations sont passées du second plan au statut de moteur actif de l'histoire.",
+      "items": [
+        {
+          "title": "Le deuxième jour transforme la maison en un jeu de stratégie",
+          "summary": "L'épisode 2 passe de la mise en place à la formation active d'alliances.",
+          "content": "La logique sociale de l'émission devient beaucoup plus facile à décrypter ici. Les conversations portent moins sur les présentations et davantage sur qui compte, en qui on a confiance, et qui peut changer l'ambiance d'un groupe."
+        },
+        {
+          "title": "Le premier défi en équipe fait monter les enjeux",
+          "summary": "L'épisode traite la coopération comme quelque chose de fragile plutôt que d'automatique.",
+          "content": "À ce stade, la configuration Bleu contre Violet porte ses fruits. Le défi montre que l'alchimie, l'ego et les rancœurs rapides peuvent tous influencer les résultats de la compétition."
+        },
+        {
+          "title": "Demi Engemann livre le moment le plus cité de l'épisode",
+          "summary": "Demi revient sur le scandale des Fruity Pebbles devant la caméra, produisant la confession la plus choquante et la plus partagée de la journée.",
+          "content": "C'est le moment le plus propice aux tabloïds de l'épisode, et il est instantanément devenu l'une des principales raisons pour lesquelles les spectateurs occasionnels ont parlé de l'épisode 2 en ligne."
+        },
+        {
+          "title": "Huda définit sa relation avec Louis",
+          "summary": "Lors d'une conversation avec Cameron Jerrard, Huda déclare qu'elle et Louis ont déjà discuté de mariage et d'enfants.",
+          "content": "Cette réplique les fait passer d'un couple de téléréalité générique à l'un des duos les plus sérieux de la saison, ce qui rend chaque dispute ou alliance autour d'eux plus intéressante."
+        },
+        {
+          "title": "L'intrigue de Hallie se précise",
+          "summary": "Andrew revient au chalet et l'alchimie de Hallie avec lui devient plus concrète, tandis que son flirt avec Dakota se refroidit après l'énergie du jacuzzi.",
+          "content": "L'épisode 2 rend le triangle amoureux plus facile à lire. Andrew semble être la voie émotionnelle, Dakota semble être la distraction, et Hallie reste au centre du chaos."
+        },
+        {
+          "title": "Pourquoi l'épisode 2 est important",
+          "summary": "C'est le chapitre où l'émission prouve qu'elle peut générer des intrigues récurrentes, et pas seulement le chaos de la semaine de lancement.",
+          "content": "Les téléspectateurs repartent avec des alliances plus claires, des enjeux relationnels plus forts et une meilleure idée de qui peut mener la conversation pour le reste de la semaine."
         }
       ]
     }
@@ -790,177 +740,197 @@
   "faq": {
     "title": "Foire aux",
     "titleHighlight": "Questions",
-    "subtitle": "Tout ce que vous devez savoir sur Lucid Blocks",
+    "subtitle": "Tout ce que vous devez savoir sur Unwell Winter Games",
     "questions": [
       {
-        "question": "Comment télécharger la démo de Lucid Blocks ?",
-        "answer": "Visitez la page du magasin Steam et cliquez sur \"Télécharger la démo\". La démo est gratuite et nécessite 2,62 Gio à télécharger, 4,88 Gio d'espace disque."
+        "question": "Qu'est-ce qu'Unwell Winter Games ?",
+        "answer": "Unwell Winter Games est une série de compétition de téléréalité YouTube produite par le réseau Unwell d'Alex Cooper. Elle met en scène 16 candidats s'affrontant dans des défis hivernaux dans un chalet de Park City, Utah, pendant quatre jours."
       },
       {
-        "question": "Puis-je jouer à Lucid Blocks en solo ou ai-je besoin d'amis ?",
-        "answer": "Lucid Blocks prend en charge le jeu en solo et en coopération avec jusqu'à 6 joueurs. Le solo est plus difficile mais possible."
+        "question": "Où puis-je regarder Unwell Winter Games ?",
+        "answer": "Unwell Winter Games est disponible gratuitement sur la chaîne YouTube officielle d'Unwell. Aucun abonnement n'est requis — les quatre épisodes y sont diffusés."
       },
       {
-        "question": "Quelles sont les tâches du Haut-Gnome dans Lucid Blocks ?",
-        "answer": "Le Haut-Gnome est votre patron qui vous assigne des objectifs comme \"casser la télévision\", \"inonder les toilettes\" ou \"voler des objets spécifiques\". Effectuez-les pour obtenir des récompenses supplémentaires."
+        "question": "Combien d'épisodes compte Unwell Winter Games ?",
+        "answer": "Unwell Winter Games compte quatre épisodes, diffusés quotidiennement du 6 avril 2026 au 9 avril 2026 à 9h00 PT chaque jour."
       },
       {
-        "question": "Comment installer des mods pour Lucid Blocks ?",
-        "answer": "Installez BepInEx 5, lancez le jeu une fois, puis placez les DLL des mods dans le dossier BepInEx/plugins/. Tous les joueurs ont besoin des mêmes mods pour le multijoueur."
+        "question": "Qui fait partie du casting d'Unwell Winter Games ?",
+        "answer": "Le casting d'Unwell Winter Games comprend Anna Delvey, Dakota Mortensen, Ekin-Su Cülcüloğlu, Huda Mustafa, Gleb Savchenko, Joe Amabile, Saraya Bevis, Juliette Porter et 11 autres personnalités de la téléréalité et créateurs."
       },
       {
-        "question": "Lucid Blocks prend-il en charge les manettes ?",
-        "answer": "Oui ! Utilisez les paramètres du jeu pour la prise en charge de base de la manette, ou installez le Mod de manette de Nexus Mods pour une navigation complète dans l'interface utilisateur."
+        "question": "Qui est derrière Unwell Winter Games ?",
+        "answer": "Unwell Winter Games est produit sous le réseau Unwell d'Alex Cooper, qui gère la chaîne YouTube officielle où la série est diffusée quotidiennement."
       },
       {
-        "question": "Quel est le nombre de joueurs pour Lucid Blocks ?",
-        "answer": "En février 2026, Lucid Blocks compte en moyenne plus de 6 000 joueurs simultanés, avec un pic de 15 272 le 8 février 2026."
+        "question": "Y a-t-il des couples dans Unwell Winter Games ?",
+        "answer": "Oui. Unwell Winter Games met en vedette des couples existants, notamment Joe Amabile et Serena Pitt de Bachelor Nation, ainsi que des candidats ayant des liens signalés comme Louis Russell et Huda Mustafa."
       }
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "title": "Prêt à regarder Unwell Winter Games ?",
+    "description": "Rejoignez la communauté Unwell sur Reddit pour des discussions, du drama, des mises à jour et plus encore !",
+    "joinCommunity": "Rejoindre la communauté",
+    "joinGame": "Site officiel"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
+    "title": "Unwell Winter Games",
+    "description": "Votre centre de ressources complet pour le casting, les épisodes, le calendrier, les couples, les défis et le drama d'Unwell Winter Games.",
     "resources": "Ressources",
     "community": "Communauté",
-    "legal": "Légal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
+    "legal": "Mentions légales",
+    "discord": "YouTube",
+    "twitter": "Reddit",
+    "steamCommunity": "Instagram",
+    "steamStore": "Site officiel",
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "copyright": "© 2026 Unwell Winter Games. Non affilié à Alex Cooper ou Unwell Network.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
   },
   "pages": {
-    "guides": {
-      "title": "Guides Lucid Blocks",
-      "description": "Guides de jeu complets, des bases pour débutants aux stratégies avancées d'Apotheosis. Maîtrisez la survie et l'artisanat.",
-      "metaTitle": "Guides Lucid Blocks - Stratégies de débutant à avancé",
-      "metaDescription": "Guides complets de Lucid Blocks couvrant les conseils pour débutants, le système Apotheosis, les stratégies de survie et les tactiques d'experts pour maîtriser ce bac à sable surréaliste.",
-      "categoryLabel": "GUIDES DE JEU",
-      "whatIs": "Que sont les Guides ?",
-      "whatIsDescription": "Guides complets couvrant les mécaniques de jeu, les stratégies de survie et le système d'artisanat Apotheosis. Apprenez tout, des premiers pas aux techniques avancées.",
-      "why": "Pourquoi lire les guides ?",
+    "guide": {
+      "title": "Guide d'Unwell Winter Games",
+      "description": "Guide complet de la série de compétition de téléréalité Unwell Winter Games. Découvrez le format, les défis et ce à quoi vous attendre.",
+      "metaTitle": "Guide d'Unwell Winter Games - Aperçu complet de la compétition",
+      "metaDescription": "Votre guide complet d'Unwell Winter Games. Découvrez le format de la compétition, les défis, le calendrier et tout ce que vous devez savoir.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "Qu'est-ce qu'Unwell Winter Games ?",
+      "whatIsDescription": "Unwell Winter Games est une série de compétition de téléréalité du réseau Unwell d'Alex Cooper, mettant en vedette 16 candidats s'affrontant dans des défis hivernaux dans un chalet de luxe à Park City pendant quatre jours palpitants.",
+      "why": "Pourquoi lire le guide ?",
       "whySteps": {
-        "step1Title": "Apprendre les mécaniques de base",
-        "step1Description": "Comprenez le système Apotheosis et évitez les erreurs courantes de débutant",
-        "step2Title": "Progression rapide",
-        "step2Description": "Suivez des parcours éprouvés pour survivre et prospérer dans ce monde surréaliste",
-        "step3Title": "Maîtriser les stratégies",
-        "step3Description": "Développez des tactiques avancées pour l'exploration et l'artisanat"
+        "step1Title": "Comprendre le format",
+        "step1Description": "Découvrez comment la compétition de quatre jours est structurée et quels défis les candidats affrontent",
+        "step2Title": "Rencontrer les joueurs",
+        "step2Description": "Obtenez du contexte sur les 16 candidats avant de plonger dans le drama",
+        "step3Title": "Suivre la saison",
+        "step3Description": "Restez à jour avec chaque épisode, élimination et moments clés"
       },
-      "featured": "En vedette et essentiels",
+      "featured": "Guides à la une",
       "all": "Tous les guides"
     },
-    "crafting": {
-      "title": "Artisanat Lucid Blocks",
-      "description": "Maîtrisez le système de fusion Apotheosis avec les mécaniques d'essence, les recettes et les stratégies d'artisanat pour des objets puissants.",
-      "metaTitle": "Artisanat Lucid Blocks - Système Apotheosis et recettes",
-      "metaDescription": "Maîtrisez le système d'artisanat Apotheosis de Lucid Blocks. Apprenez les mécaniques d'essence, les recettes de fusion et les stratégies pour créer des outils et des armes puissants.",
-      "categoryLabel": "SYSTÈME D'ARTISANAT",
-      "whatIs": "Qu'est-ce que l'artisanat ?",
-      "whatIsDescription": "Le système Apotheosis est une mécanique de fusion unique basée sur l'essence où vous combinez jusqu'à six objets pour découvrir de nouvelles recettes. Pas de menus d'artisanat fixes : l'expérimentation est la clé.",
-      "why": "Pourquoi maîtriser l'artisanat ?",
+    "watch": {
+      "title": "Où regarder Unwell Winter Games",
+      "description": "Découvrez où et comment regarder Unwell Winter Games, y compris les liens de streaming, les horaires de diffusion et la bande-annonce.",
+      "metaTitle": "Où regarder Unwell Winter Games - Streaming et horaires de diffusion",
+      "metaDescription": "Regardez Unwell Winter Games sur YouTube. Obtenez les horaires de diffusion, les liens de streaming et la bande-annonce officielle de chaque épisode.",
+      "categoryLabel": "OÙ REGARDER",
+      "whatIs": "Où pouvez-vous regarder Unwell Winter Games ?",
+      "whatIsDescription": "Unwell Winter Games est diffusé exclusivement sur la chaîne YouTube officielle de Unwell (@Unwell), avec de nouveaux épisodes mis en ligne chaque jour à 9h PT pendant toute la semaine de compétition.",
+      "why": "Pourquoi consulter le guide de visionnage ?",
       "whySteps": {
-        "step1Title": "Débloquer des objets puissants",
-        "step1Description": "Découvrez des outils, des armes et des équipements de mobilité essentiels grâce à la fusion",
-        "step2Title": "Comprendre les essences",
-        "step2Description": "Apprenez comment les essences d'objets se combinent pour créer des résultats prévisibles",
-        "step3Title": "Optimiser les ressources",
-        "step3Description": "Utilisez les mécaniques de dilution pour maximiser le rendement à partir de matériaux bon marché"
+        "step1Title": "Ne manquez jamais un épisode",
+        "step1Description": "Obtenez les horaires exacts de sortie pour regarder chaque épisode dès sa mise en ligne",
+        "step2Title": "Trouvez le flux officiel",
+        "step2Description": "Accédez aux liens directs vers la chaîne YouTube et la playlist officielles de Unwell",
+        "step3Title": "Regardez la bande-annonce",
+        "step3Description": "Découvrez un aperçu de la saison avec la bande-annonce officielle de Unwell Winter Games avant de vous lancer"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides d'artisanat"
+      "featured": "Infos de visionnage à la une",
+      "all": "Tous les guides de visionnage"
     },
-    "items": {
-      "title": "Objets Lucid Blocks",
-      "description": "Guides détaillés sur les objets couvrant les outils, les armes, l'équipement de mobilité et les solutions de stockage avec recettes d'artisanat et conseils d'utilisation.",
-      "metaTitle": "Objets Lucid Blocks - Guide des outils, armes et équipements",
-      "metaDescription": "Base de données complète des objets pour Lucid Blocks, incluant les outils, les armes, l'équipement de mobilité et le stockage. Apprenez à fabriquer et utiliser chaque objet efficacement.",
-      "categoryLabel": "OBJETS ET ÉQUIPEMENT",
-      "whatIs": "Que sont les objets ?",
-      "whatIsDescription": "Guides complets pour les outils, les armes, l'équipement de mobilité et les objets fonctionnels. Apprenez les recettes d'artisanat, les stratégies d'utilisation et les combinaisons optimales.",
-      "why": "Pourquoi consulter les guides d'objets ?",
+    "cast": {
+      "title": "Casting de Unwell Winter Games",
+      "description": "Rencontrez les 16 candidats en compétition dans la série de télé-réalité Unwell Winter Games.",
+      "metaTitle": "Casting de Unwell Winter Games - Guide des 16 candidats",
+      "metaDescription": "Guide complet du casting de Unwell Winter Games présentant tous les candidats, leurs parcours et pourquoi les fans les connaissent.",
+      "categoryLabel": "GUIDE DU CASTING",
+      "whatIs": "Qui fait partie du casting de Unwell Winter Games ?",
+      "whatIsDescription": "Le casting de Unwell Winter Games réunit 16 créateurs internet, personnalités de podcasts et figures de la pop culture s'affrontant pendant quatre jours de défis hivernaux à Park City, Utah.",
+      "why": "Pourquoi lire le guide du casting ?",
       "whySteps": {
-        "step1Title": "Apprendre les recettes d'artisanat",
-        "step1Description": "Découvrez comment fabriquer des outils et des armes essentiels en utilisant Apotheosis",
-        "step2Title": "Optimiser l'équipement",
-        "step2Description": "Choisissez les meilleurs objets pour votre style de jeu et votre stade de progression",
-        "step3Title": "Améliorer la survie",
-        "step3Description": "Équipez-vous de matériel de mobilité et d'armes pour naviguer dans ce monde dangereux"
+        "step1Title": "Connaître les candidats",
+        "step1Description": "Comprenez qui est chaque personne avant de regarder la compétition se dérouler",
+        "step2Title": "Suivre les relations",
+        "step2Description": "Découvrez les connexions existantes et les alliances potentielles au début de la compétition",
+        "step3Title": "Suivre les intrigues",
+        "step3Description": "Connaissez les histoires passées qui alimentent les intrigues principales de chaque épisode"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les objets"
+      "featured": "Membres du casting à la une",
+      "all": "Tout le casting"
     },
-    "biomes": {
-      "title": "Biomes Lucid Blocks",
-      "description": "Explorez les régions du monde, les caractéristiques environnementales, l'emplacement des ressources et les conseils de survie pour chaque biome.",
-      "metaTitle": "Biomes Lucid Blocks - Régions du monde et exploration",
-      "metaDescription": "Explorez les biomes de Lucid Blocks, y compris les Tiamana Leylines, Fog Meadow et les régions surréalistes. Trouvez des ressources, évitez les dangers et naviguez dans le monde infini.",
-      "categoryLabel": "RÉGIONS DU MONDE",
-      "whatIs": "Que sont les biomes ?",
-      "whatIsDescription": "Guides des différentes régions du monde, des caractéristiques environnementales, de la distribution des ressources et des zones de danger. Apprenez à quoi vous attendre et comment vous préparer pour chaque zone.",
-      "why": "Pourquoi explorer les biomes ?",
+    "people": {
+      "title": "Personnalités de Unwell Winter Games",
+      "description": "Analyses approfondies des personnalités clés de Unwell Winter Games, notamment Alex Cooper, Huda, Dakota Mortensen et plus encore.",
+      "metaTitle": "Personnalités de Unwell Winter Games - Personnalités clés et candidats",
+      "metaDescription": "Profils de chaque personnalité majeure de Unwell Winter Games, y compris Alex Cooper, Huda, Dakota Mortensen, Hallie Batchelder et Kendall.",
+      "categoryLabel": "PERSONNALITÉS",
+      "whatIs": "Qui sont les personnes clés de Unwell Winter Games ?",
+      "whatIsDescription": "De l'animatrice Alex Cooper aux candidats marquants comme Huda, Dakota Mortensen et Hallie Batchelder, Unwell Winter Games met en scène des personnalités suivies par des millions de personnes et aux relations complexes avant même le début de la compétition.",
+      "why": "Pourquoi s'informer sur ces personnalités ?",
       "whySteps": {
-        "step1Title": "Trouver des ressources",
-        "step1Description": "Localisez des matériaux rares et des essences spécifiques à chaque région",
-        "step2Title": "Éviter les dangers",
-        "step2Description": "Comprenez les dangers environnementaux et les créatures hostiles",
-        "step3Title": "Planifier l'exploration",
-        "step3Description": "Préparez les bons outils et équipements pour chaque type de biome"
+        "step1Title": "Obtenir tout l'historique",
+        "step1Description": "Comprenez le passé de chaque personnalité avant qu'elle ne participe à la compétition",
+        "step2Title": "Suivre les favoris des fans",
+        "step2Description": "Suivez les candidats que le public soutient tout au long de la saison",
+        "step3Title": "Contexte pour les tensions",
+        "step3Description": "Connaissez les relations et les rivalités qui façonnent le récit de chaque épisode"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les biomes"
+      "featured": "Profils à la une",
+      "all": "Toutes les personnalités"
     },
-    "building": {
-      "title": "Construction Lucid Blocks",
-      "description": "Maîtrisez les dimensions personnelles Qualia, la construction de bases, la gestion du stockage et les techniques de construction créative.",
-      "metaTitle": "Construction Lucid Blocks - Qualia et construction de base",
-      "metaDescription": "Maîtrisez la construction dans Lucid Blocks avec les dimensions personnelles Qualia, la construction de bases, les solutions de stockage et les techniques de construction créative.",
-      "categoryLabel": "CONSTRUCTION ET BASES",
-      "whatIs": "Qu'est-ce que la construction ?",
-      "whatIsDescription": "Guides sur le système de dimension personnelle Qualia, la construction de bases, la gestion du stockage et la construction créative. Apprenez à créer votre havre de paix dans ce monde surréaliste.",
-      "why": "Pourquoi construire des bases ?",
+    "episode": {
+      "title": "Épisodes de Unwell Winter Games",
+      "description": "Résumés et analyses de tous les épisodes de la série Unwell Winter Games.",
+      "metaTitle": "Épisodes de Unwell Winter Games - Guide complet des résumés et analyses",
+      "metaDescription": "Guide complet des épisodes de Unwell Winter Games comprenant les résumés, les moments clés et les résultats de chaque épisode.",
+      "categoryLabel": "ÉPISODES",
+      "whatIs": "Que se passe-t-il dans chaque épisode ?",
+      "whatIsDescription": "Chaque épisode de Unwell Winter Games couvre une journée de compétition à Park City, avec de nouveaux défis hivernaux, des alliances changeantes, des éliminations dramatiques et des rebondissements inattendus.",
+      "why": "Pourquoi lire les résumés d'épisodes ?",
       "whySteps": {
-        "step1Title": "Créer des espaces sûrs",
-        "step1Description": "Établissez des bases sécurisées pour le stockage et les opérations d'artisanat",
-        "step2Title": "Gérer les ressources",
-        "step2Description": "Organisez les matériaux efficacement grâce aux solutions de stockage",
-        "step3Title": "Débloquer Qualia",
-        "step3Description": "Accédez à des dimensions de poche personnelles pour un confort ultime"
+        "step1Title": "Rattraper les moments clés",
+        "step1Description": "Obtenez des résumés détaillés des défis, des éliminations et des scènes marquantes",
+        "step2Title": "Suivre la compétition",
+        "step2Description": "Suivez qui gagne, qui perd et qui forme des alliances épisode par épisode",
+        "step3Title": "Analyser les tensions",
+        "step3Description": "Analysez les plus grandes confrontations et les tournants de la saison"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les guides de construction"
+      "featured": "Épisodes à la une",
+      "all": "Tous les épisodes"
     },
-    "support": {
-      "title": "Support Lucid Blocks",
-      "description": "Support technique, compatibilité des plateformes, optimisation des performances et dépannage des problèmes courants.",
-      "metaTitle": "Support Lucid Blocks - Aide technique et correctifs",
-      "metaDescription": "Obtenez un support technique pour Lucid Blocks, incluant la configuration du Steam Deck, les correctifs de crash, l'optimisation des performances et les guides de compatibilité des plateformes.",
-      "categoryLabel": "SUPPORT TECHNIQUE",
-      "whatIs": "Qu'est-ce que le support ?",
-      "whatIsDescription": "Guides techniques couvrant la compatibilité des plateformes, l'optimisation des performances, les correctifs de crash et les problèmes courants. Obtenez de l'aide pour le Steam Deck, les questions sur le multijoueur et les paramètres.",
-      "why": "Pourquoi consulter le support ?",
+    "controversy": {
+      "title": "Controverse des Unwell Winter Games",
+      "description": "Couverture des controverses, débats et réactions des fans entourant la compétition Unwell Winter Games.",
+      "metaTitle": "Controverse des Unwell Winter Games - Drame et réactions des fans",
+      "metaDescription": "Explorez les plus grandes controverses des Unwell Winter Games, y compris les débats des spectateurs, les drames entre participants et les réactions des fans.",
+      "categoryLabel": "CONTROVERSE",
+      "whatIs": "Quelles controverses entourent les Unwell Winter Games ?",
+      "whatIsDescription": "Les Unwell Winter Games ont suscité des débats en ligne sur le comportement des participants, l'équité de la compétition et les drames interpersonnels, les fans discutant activement de chaque rebondissement sur les réseaux sociaux.",
+      "why": "Pourquoi suivre la couverture des controverses ?",
       "whySteps": {
-        "step1Title": "Résoudre les problèmes techniques",
-        "step1Description": "Résolvez les plantages, les problèmes de performance et les problèmes de compatibilité",
-        "step2Title": "Optimiser les performances",
-        "step2Description": "Configurez les paramètres pour la meilleure expérience sur votre plateforme",
-        "step3Title": "Compatibilité des plateformes",
-        "step3Description": "Apprenez-en plus sur le Steam Deck, le support des manettes et les configurations requises"
+        "step1Title": "Restez informé",
+        "step1Description": "Obtenez une analyse claire de ce qui a causé chaque controverse et de qui est impliqué",
+        "step2Title": "Comprenez les réactions des fans",
+        "step2Description": "Découvrez comment le public réagit aux moments les plus clivants",
+        "step3Title": "Formez votre propre opinion",
+        "step3Description": "Obtenez plusieurs perspectives sur les débats entourant la compétition"
       },
-      "featured": "En vedette et essentiels",
-      "all": "Tous les articles de support"
+      "featured": "Controverses à la une",
+      "all": "Toutes les controverses"
+    },
+    "reddit": {
+      "title": "Reddit des Unwell Winter Games",
+      "description": "Les meilleures discussions Reddit, théories de fans et réactions de la communauté aux Unwell Winter Games.",
+      "metaTitle": "Reddit des Unwell Winter Games - Meilleures discussions et théories de fans",
+      "metaDescription": "Explorez les meilleures discussions Reddit sur les Unwell Winter Games, y compris les théories de fans, les réactions aux épisodes et les débats de la communauté.",
+      "categoryLabel": "REDDIT",
+      "whatIs": "Qu'est-ce que la communauté Reddit des Unwell Winter Games ?",
+      "whatIsDescription": "Le subreddit r/unwellnetwork est le centre principal des discussions des fans des Unwell Winter Games, incluant les réactions aux épisodes, les débats sur les participants et les théories de fans sur la compétition.",
+      "why": "Pourquoi consulter les discussions Reddit ?",
+      "whySteps": {
+        "step1Title": "Réactions authentiques des fans",
+        "step1Description": "Découvrez les opinions authentiques du public sur les épisodes, les participants et les résultats de la compétition",
+        "step2Title": "Découvrez des théories de fans",
+        "step2Description": "Explorez les spéculations de la communauté sur les alliances, les résultats et les drames cachés",
+        "step3Title": "Rejoignez la conversation",
+        "step3Description": "Échangez avec la communauté de fans des Unwell Winter Games la plus active en ligne"
+      },
+      "featured": "Meilleures discussions Reddit",
+      "all": "Toute la couverture Reddit"
     }
   }
 }
