@@ -1,9 +1,11 @@
 'use client'
 
-import { useEffect, Suspense, lazy } from 'react'
+import { useEffect, useState, Suspense, lazy } from 'react'
 import {
   ArrowRight,
+  ChevronDown,
   ExternalLink,
+  Heart,
   Play,
   Sparkles,
   Users,
@@ -128,6 +130,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       },
     ],
   }
+
+  // Dakota accordion state
+  const [dakotaExpanded, setDakotaExpanded] = useState<number | null>(null)
 
   // FAQ accordion states
 
@@ -277,7 +282,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               // 映射卡片索引到 section ID
               const sectionIds = [
                 'unwell-winter-games-cast', 'unwell-winter-games-how-to-watch',
-                'unwell-winter-games-trailer', 'unwell-winter-games-release-date'
+                'unwell-winter-games-trailer', 'unwell-winter-games-release-date',
+                'unwell-winter-games-episode-guide', 'unwell-winter-games-showmances',
+                'unwell-winter-games-huda-and-louis', 'unwell-winter-games-dakota-mortensen'
               ]
               const sectionId = sectionIds[index]
 
@@ -436,6 +443,219 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           </div>
         </div>
       </section>
+      {/* Module 5: Unwell Winter Games Episode Guide */}
+      <section id="unwell-winter-games-episode-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesEpisodeGuide.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesEpisodeGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesEpisodeGuide.subtitle}
+            </p>
+          </div>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Episode</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Date</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Status</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Title</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Focus</th>
+                  <th className="text-left px-4 py-3 font-semibold text-muted-foreground">Watch</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.unwellWinterGamesEpisodeGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className="border-b border-border last:border-0 hover:bg-white/[0.03] transition-colors">
+                    <td className="px-4 py-4 font-semibold text-[hsl(var(--nav-theme-light))]">{item.episode}</td>
+                    <td className="px-4 py-4 text-muted-foreground whitespace-nowrap">{item.release_date}</td>
+                    <td className="px-4 py-4">
+                      <span className={`text-xs px-2 py-1 rounded-full border ${item.status === 'Released' ? 'bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]' : 'bg-white/5 border-border text-muted-foreground'}`}>
+                        {item.status}
+                      </span>
+                    </td>
+                    <td className="px-4 py-4 font-medium max-w-[160px]">{item.title}</td>
+                    <td className="px-4 py-4 text-muted-foreground max-w-[220px] text-xs">{item.focus}</td>
+                    <td className="px-4 py-4">
+                      <a href={item.watch_href} target="_blank" rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-[hsl(var(--nav-theme-light))] hover:underline text-sm font-medium">
+                        <Play className="w-3 h-3" /> Watch
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.unwellWinterGamesEpisodeGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="font-bold text-[hsl(var(--nav-theme-light))]">{item.episode}</span>
+                  <span className={`text-xs px-2 py-1 rounded-full border ${item.status === 'Released' ? 'bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]' : 'bg-white/5 border-border text-muted-foreground'}`}>
+                    {item.status}
+                  </span>
+                </div>
+                <p className="text-xs text-muted-foreground mb-2">{item.release_date}</p>
+                <h3 className="font-semibold mb-2 text-sm">{item.title}</h3>
+                <p className="text-muted-foreground text-xs mb-3">{item.focus}</p>
+                <a href={item.watch_href} target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-[hsl(var(--nav-theme-light))] hover:underline text-sm font-medium">
+                  <Play className="w-3 h-3" /> Watch on YouTube
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Unwell Winter Games Showmances */}
+      <section id="unwell-winter-games-showmances" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesShowmances.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesShowmances.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesShowmances.subtitle}
+            </p>
+          </div>
+
+          {/* Alternating timeline */}
+          <div className="scroll-reveal relative">
+            {/* Center line - desktop */}
+            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-[hsl(var(--nav-theme)/0.25)] -translate-x-1/2" />
+
+            {/* Mobile: left line */}
+            <div className="md:hidden absolute left-4 top-0 bottom-0 w-px bg-[hsl(var(--nav-theme)/0.25)]" />
+
+            <div className="space-y-8">
+              {t.modules.unwellWinterGamesShowmances.items.map((item: any, index: number) => {
+                const isRight = index % 2 === 0
+                const statusStyles: Record<string, string> = {
+                  green: 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400',
+                  theme: 'bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]',
+                  muted: 'bg-white/5 border-border text-muted-foreground',
+                }
+                const badgeClass = statusStyles[item.statusColor] || statusStyles.muted
+
+                return (
+                  <div key={index} className={`relative flex md:items-center ${isRight ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
+                    {/* Dot */}
+                    <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background z-10" />
+                    {/* Mobile dot */}
+                    <div className="md:hidden absolute left-4 -translate-x-1/2 w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background z-10 mt-5" />
+
+                    {/* Card */}
+                    <div className={`w-full md:w-[calc(50%-2rem)] ml-8 md:ml-0 ${isRight ? 'md:mr-8' : 'md:ml-8'} p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors`}>
+                      <div className="flex items-start justify-between gap-3 mb-3 flex-wrap">
+                        <div className="flex items-center gap-2">
+                          <Heart className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                          <h3 className="font-bold">{item.pair}</h3>
+                        </div>
+                        <span className={`text-xs px-2 py-1 rounded-full border whitespace-nowrap ${badgeClass}`}>
+                          {item.status}
+                        </span>
+                      </div>
+                      <p className="text-xs text-muted-foreground mb-2 font-medium uppercase tracking-wide">{item.stage}</p>
+                      <p className="text-sm text-muted-foreground">{item.details}</p>
+                    </div>
+
+                    {/* Spacer for opposite side */}
+                    <div className="hidden md:block w-[calc(50%-2rem)]" />
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Unwell Winter Games Huda and Louis */}
+      <section id="unwell-winter-games-huda-and-louis" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesHudaAndLouis.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesHudaAndLouis.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesHudaAndLouis.subtitle}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.unwellWinterGamesHudaAndLouis.items.map((item: any, index: number) => (
+              <div key={index} className={`p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors ${index === 0 ? 'lg:col-span-2' : ''}`}>
+                <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-2">
+                  {item.label}
+                </span>
+                <h3 className="font-bold text-lg mb-2 leading-snug">{item.headline}</h3>
+                <p className="text-sm text-muted-foreground">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Unwell Winter Games Dakota Mortensen */}
+      <section id="unwell-winter-games-dakota-mortensen" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesDakotaMortensen.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesDakotaMortensen.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesDakotaMortensen.subtitle}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {t.modules.unwellWinterGamesDakotaMortensen.items.map((item: any, index: number) => {
+              const isOpen = dakotaExpanded === index
+              return (
+                <div key={index} className="border border-border rounded-xl overflow-hidden hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <button
+                    onClick={() => setDakotaExpanded(isOpen ? null : index)}
+                    className="w-full flex items-center justify-between p-5 text-left bg-white/5 hover:bg-white/[0.08] transition-colors"
+                  >
+                    <div>
+                      <span className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] block mb-1">
+                        {item.section}
+                      </span>
+                      <span className="font-semibold">{item.summary}</span>
+                    </div>
+                    <ChevronDown className={`w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 ml-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  {isOpen && (
+                    <div className="px-5 pb-5 pt-4 bg-white/[0.02] border-t border-border">
+                      <p className="text-muted-foreground text-sm leading-relaxed">{item.content}</p>
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <Suspense fallback={<LoadingPlaceholder />}>
         <FAQSection

@@ -32,7 +32,13 @@ export const iconRegistry: Record<string, LucideIcon> = {
   PlayCircle: LucideIcons.PlayCircle,
   Film: LucideIcons.Film,
   CalendarDays: LucideIcons.CalendarDays,
+  CalendarRange: LucideIcons.CalendarRange,
   Play: LucideIcons.Play,
+
+  // 社交和人物图标
+  Heart: LucideIcons.Heart,
+  Link2: LucideIcons.Link2,
+  UserCircle: LucideIcons.UserCircle,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

@@ -78,6 +78,26 @@
         "icon": "CalendarDays",
         "title": "Unwell Winter Games Release Date",
         "description": "Full episode rollout and release timeline"
+      },
+      {
+        "icon": "CalendarRange",
+        "title": "Unwell Winter Games Episode Guide",
+        "description": "Track every episode with dates and key story beats"
+      },
+      {
+        "icon": "Heart",
+        "title": "Unwell Winter Games Showmances",
+        "description": "Every couple, crush, and almost-couple so far"
+      },
+      {
+        "icon": "Link2",
+        "title": "Unwell Winter Games Huda & Louis",
+        "description": "Why Huda and Louis became a headline storyline"
+      },
+      {
+        "icon": "UserCircle",
+        "title": "Unwell Winter Games Dakota Mortensen",
+        "description": "Who Dakota is and why viewers search him first"
       }
     ]
   },
@@ -277,6 +297,143 @@
           "label": "Episode 4 — Finale",
           "status": "finale day",
           "details": "The four-episode rollout wraps on Thursday, completing the series' launch-week schedule."
+        }
+      ]
+    },
+    "unwellWinterGamesEpisodeGuide": {
+      "title": "Unwell Winter Games Episode Guide",
+      "eyebrow": "Season 1",
+      "subtitle": "Season 1 rolls out as a four-episode YouTube event. This guide keeps the release order, episode status, and key story beats in one quick-scan hub.",
+      "intro": "Unwell Winter Games premiered on Unwell's YouTube channel on April 6, 2026, with new episodes dropping daily through April 9. The first two episodes are already live, while the back half of the season follows the same day-by-day release pattern.",
+      "items": [
+        {
+          "episode": "Episode 1",
+          "release_date": "April 6, 2026",
+          "status": "Released",
+          "title": "Hit the Slopes, Read the Room, Trust Nobody",
+          "focus": "The series opens with the chalet setup, first impressions, early flirting, and a snowmobile challenge that immediately turns the cast dynamic chaotic.",
+          "watch_href": "https://www.youtube.com/watch?v=kHFPi7euy4A"
+        },
+        {
+          "episode": "Episode 2",
+          "release_date": "April 7, 2026",
+          "status": "Released",
+          "title": "The Alliances Are Forming and Nobody Is Safe",
+          "focus": "Day two pushes strategy to the front, hardens team lines, and turns relationship tension into one of the main engines of the show.",
+          "watch_href": "https://www.youtube.com/watch?v=H0yHgEgaGC8"
+        },
+        {
+          "episode": "Episode 3",
+          "release_date": "April 8, 2026",
+          "status": "Released",
+          "title": "Episode 3",
+          "focus": "The third installment continues the daily rollout at 12 p.m. ET, carrying the season into its midweek escalation point.",
+          "watch_href": "https://www.youtube.com/playlist?list=PLMIEtpbkVa4KXWK1pUfsomc60VZFquOBv"
+        },
+        {
+          "episode": "Episode 4",
+          "release_date": "April 9, 2026",
+          "status": "Scheduled",
+          "title": "Episode 4 — Finale",
+          "focus": "The season finale closes the four-day event and completes the April 6–9 release run on the Unwell YouTube channel.",
+          "watch_href": "https://www.youtube.com/playlist?list=PLMIEtpbkVa4KXWK1pUfsomc60VZFquOBv"
+        }
+      ]
+    },
+    "unwellWinterGamesShowmances": {
+      "title": "Unwell Winter Games Showmances",
+      "eyebrow": "Relationships",
+      "subtitle": "The first two episodes already delivered established couples, a Hallie-centered triangle, and one fast collapse. This tracker follows the romance side of the show as closely as the competition.",
+      "intro": "Unwell Winter Games was filmed over four days starting February 1, 2026, and the romantic storylines begin almost immediately. After Episodes 1 and 2, four pairings stand out as the ones viewers are most likely to search, debate, and revisit.",
+      "items": [
+        {
+          "stage": "Before the chalet",
+          "pair": "Louis Russell & Huda Mustafa",
+          "status": "In a Relationship",
+          "statusColor": "green",
+          "details": "Louis and Huda entered the show as an established couple. By Episode 2, Huda is openly describing the relationship as serious and future-focused."
+        },
+        {
+          "stage": "Before the chalet",
+          "pair": "Joe Amabile & Serena Pitt",
+          "status": "Married",
+          "statusColor": "green",
+          "details": "Joe and Serena arrive as the season's most stable pair. They are the only married couple in the cast and function as the clearest locked-in relationship on the show."
+        },
+        {
+          "stage": "Episodes 1–2",
+          "pair": "Andrew Vetter & Hallie Batchelder",
+          "status": "Showmance In Progress",
+          "statusColor": "theme",
+          "details": "Andrew, the Unwell production staffer turned last-minute contestant, bonds with Hallie quickly. After stepping in for her during a weakest-link moment and later returning, the two make out and become the show's messiest active flirtation."
+        },
+        {
+          "stage": "Episodes 1–2",
+          "pair": "Dakota Mortensen & Hallie Batchelder",
+          "status": "Fizzled Fast",
+          "statusColor": "muted",
+          "details": "Hallie briefly explores a connection with Dakota and spends time with him in the hot tub, but she later decides there is zero chemistry and the pairing loses momentum."
+        }
+      ]
+    },
+    "unwellWinterGamesHudaAndLouis": {
+      "title": "Unwell Winter Games Huda and Louis",
+      "eyebrow": "Power Couple",
+      "subtitle": "They arrived as one of the only pre-show couples, and Episode 2 turned their relationship into one of the season's headline storylines.",
+      "intro": "Huda Mustafa and Louis Russell are easy homepage material because viewers do not meet them as strangers inside the chalet. They arrive with an existing relationship, recognizable reality-TV histories, and enough outside drama that every new episode gives their story another searchable angle.",
+      "items": [
+        {
+          "label": "Current status",
+          "headline": "They entered the chalet as a real couple",
+          "text": "After the first two episodes, Louis Russell and Huda Mustafa remain in a relationship rather than a new showmance."
+        },
+        {
+          "label": "Why viewers know them",
+          "headline": "Love Island USA meets Too Hot to Handle",
+          "text": "Huda is known from Love Island USA Season 7, while Louis Russell is known from Too Hot to Handle and Perfect Match."
+        },
+        {
+          "label": "Off-show timeline",
+          "headline": "Their romance went Instagram official in September 2025",
+          "text": "Huda confirmed the relationship on Instagram on September 21, 2025, and Louis posted his own confirmation as well."
+        },
+        {
+          "label": "Episode 2 quote",
+          "headline": "They are already talking about a future together",
+          "text": "In the show, Huda says, 'We've spoken about marriage, we've spoken about kids, we've spoken about all these big things.'"
+        },
+        {
+          "label": "Why this storyline matters",
+          "headline": "They bring both romance and pressure into the game",
+          "text": "Episode 2 pushes Huda to explain how serious the relationship is, turning them from background couple to one of the show's main emotional storylines."
+        }
+      ]
+    },
+    "unwellWinterGamesDakotaMortensen": {
+      "title": "Unwell Winter Games Dakota Mortensen",
+      "eyebrow": "Contestant Profile",
+      "subtitle": "Dakota arrives with more outside context than almost anyone in the cast. This profile connects his reality-TV background and his actual role inside the first episodes.",
+      "intro": "For many viewers, Dakota Mortensen is not just another contestant in a snowy reality competition. He enters Unwell Winter Games as a Secret Lives of Mormon Wives figure, Taylor Frankie Paul's ex, and one of the most talked-about names in the show's cast rollout.",
+      "items": [
+        {
+          "section": "Background",
+          "summary": "He was already a known reality-TV name before the show premiered.",
+          "content": "Dakota Mortensen is Taylor Frankie Paul's ex and one of the 16 polarizing contestants cast in Unwell Winter Games. He also shares a child with Paul, which made him one of the cast's most recognized names ahead of the premiere."
+        },
+        {
+          "section": "Why He Is Controversial",
+          "summary": "His name stayed in the news because of a high-profile off-show legal and tabloid story.",
+          "content": "Separate domestic-assault investigations involving Mortensen and Paul were opened by Utah police departments in February 2026. By early April, he was drawing headlines outside Unwell Winter Games as other reality-TV appearances were being revisited around the same story."
+        },
+        {
+          "section": "Trailer Positioning",
+          "summary": "The official rollout leans into his reputation rather than hiding it.",
+          "content": "In coverage of the official trailer, Dakota says, 'I've made some bad choices in my past,' which turns him into one of the cast's clearest lightning-rod contestants before Episode 1 even starts."
+        },
+        {
+          "section": "What He Is Doing on the Show",
+          "summary": "His first real on-screen storyline is a short-lived Hallie Batchelder flirtation.",
+          "content": "Hallie initially entertained a connection with Dakota and spent time with him in the hot tub, but later decided there was zero chemistry and the flirtation stalled out. He remains active in the competition through the back half of the season."
         }
       ]
     }
