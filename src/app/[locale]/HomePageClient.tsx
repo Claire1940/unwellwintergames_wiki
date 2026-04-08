@@ -2,13 +2,22 @@
 
 import { useEffect, useState, Suspense, lazy } from 'react'
 import {
+  AlertTriangle,
   ArrowRight,
+  BookOpen,
   ChevronDown,
+  Eye,
   ExternalLink,
   Heart,
+  ListOrdered,
+  MapPin,
+  MessageCircle,
+  Mic2,
   Play,
   Sparkles,
+  Star,
   Users,
+  Video,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -284,7 +293,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 'unwell-winter-games-cast', 'unwell-winter-games-how-to-watch',
                 'unwell-winter-games-trailer', 'unwell-winter-games-release-date',
                 'unwell-winter-games-episode-guide', 'unwell-winter-games-showmances',
-                'unwell-winter-games-huda-and-louis', 'unwell-winter-games-dakota-mortensen'
+                'unwell-winter-games-huda-and-louis', 'unwell-winter-games-dakota-mortensen',
+                'unwell-winter-games-anna-delvey', 'unwell-winter-games-filming-location',
+                'unwell-winter-games-host-and-commentators', 'unwell-winter-games-rules'
               ]
               const sectionId = sectionIds[index]
 
@@ -652,6 +663,150 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               )
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Unwell Winter Games Anna Delvey */}
+      <section id="unwell-winter-games-anna-delvey" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesAnnaDelvey.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesAnnaDelvey.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesAnnaDelvey.subtitle}
+            </p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.unwellWinterGamesAnnaDelvey.items.map((item: any, index: number) => {
+              const annaDelveyIcons = [BookOpen, Star, AlertTriangle, Eye]
+              const ItemIcon = annaDelveyIcons[index] || BookOpen
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-10 h-10 rounded-full bg-[hsl(var(--nav-theme)/0.2)] flex items-center justify-center flex-shrink-0">
+                      <ItemIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.meta}</span>
+                  </div>
+                  <h3 className="font-bold mb-2 leading-snug">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm">{item.description}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Unwell Winter Games Filming Location */}
+      <section id="unwell-winter-games-filming-location" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesFilmingLocation.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesFilmingLocation.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesFilmingLocation.subtitle}
+            </p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {t.modules.unwellWinterGamesFilmingLocation.items.map((item: any, index: number) => (
+              <div key={index} className="group p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.2)] flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--nav-theme)/0.3)] transition-colors">
+                    <MapPin className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-lg leading-snug">{item.title}</h3>
+                </div>
+                <p className="text-muted-foreground text-sm">{item.caption}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Unwell Winter Games Host and Commentators */}
+      <section id="unwell-winter-games-host-and-commentators" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesHostAndCommentators.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesHostAndCommentators.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesHostAndCommentators.subtitle}
+            </p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {t.modules.unwellWinterGamesHostAndCommentators.items.map((item: any, index: number) => {
+              const hostIcons = [Mic2, MessageCircle, Video, ListOrdered]
+              const ItemIcon = hostIcons[index] || Mic2
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col">
+                  <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.15)] flex items-center justify-center mb-4 flex-shrink-0">
+                    <ItemIcon className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] self-start mb-3">{item.meta}</span>
+                  <h3 className="font-bold mb-2">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm flex-1">{item.description}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Unwell Winter Games Rules */}
+      <section id="unwell-winter-games-rules" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.unwellWinterGamesRules.eyebrow}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.unwellWinterGamesRules.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              {t.modules.unwellWinterGamesRules.subtitle}
+            </p>
+          </div>
+
+          {/* Desktop: horizontal timeline */}
+          <div className="scroll-reveal hidden md:flex items-start gap-0 relative">
+            <div className="absolute top-6 left-12 right-12 h-px bg-[hsl(var(--nav-theme)/0.25)]" />
+            {t.modules.unwellWinterGamesRules.items.map((item: any, index: number) => (
+              <div key={index} className="flex-1 flex flex-col items-center text-center px-3 relative">
+                <div className="w-12 h-12 rounded-full bg-[hsl(var(--nav-theme))] flex items-center justify-center mb-4 z-10 relative border-2 border-background">
+                  <span className="text-white font-bold text-sm">{item.step}</span>
+                </div>
+                <h3 className="font-bold text-sm mb-2 leading-snug">{item.title}</h3>
+                <p className="text-muted-foreground text-xs leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Mobile: vertical stack */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.unwellWinterGamesRules.items.map((item: any, index: number) => (
+              <div key={index} className="flex gap-4 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--nav-theme))] flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="font-bold mb-1">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

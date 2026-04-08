@@ -98,6 +98,26 @@
         "icon": "UserCircle",
         "title": "Unwell Winter Games Dakota Mortensen",
         "description": "Who Dakota is and why viewers search him first"
+      },
+      {
+        "icon": "Star",
+        "title": "Unwell Winter Games Anna Delvey",
+        "description": "Her backstory, ankle monitor scene, and why she headlines the cast"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Unwell Winter Games Filming Location",
+        "description": "Park City, Utah chalet setting and why the location shapes the format"
+      },
+      {
+        "icon": "Mic2",
+        "title": "Unwell Winter Games Host and Commentators",
+        "description": "Adam Waheed, Grace O'Malley, and Graydon Cutler on-screen breakdown"
+      },
+      {
+        "icon": "ListOrdered",
+        "title": "Unwell Winter Games Rules",
+        "description": "Two teams, daily challenges, cash prizes, and how the winner is decided"
       }
     ]
   },
@@ -434,6 +454,115 @@
           "section": "What He Is Doing on the Show",
           "summary": "His first real on-screen storyline is a short-lived Hallie Batchelder flirtation.",
           "content": "Hallie initially entertained a connection with Dakota and spent time with him in the hot tub, but later decided there was zero chemistry and the flirtation stalled out. He remains active in the competition through the back half of the season."
+        }
+      ]
+    },
+    "unwellWinterGamesAnnaDelvey": {
+      "eyebrow": "Cast Spotlight",
+      "title": "Unwell Winter Games Anna Delvey",
+      "subtitle": "Anna Delvey arrives with more built-in notoriety than almost anyone else in the cast. Her episode-one ankle monitor moment instantly gives viewers a concrete reason to search her page.",
+      "items": [
+        {
+          "title": "Why viewers already know her",
+          "meta": "Background",
+          "description": "Anna Delvey, born Anna Sorokin, became internationally known after posing as a wealthy German heiress in New York. Her case later inspired Netflix's Inventing Anna, which is why she enters the series as one of the cast's most recognizable names."
+        },
+        {
+          "title": "What makes her stand out on this show",
+          "meta": "Episode 1 Hook",
+          "description": "In the premiere, Delvey has to step away early to charge her ankle monitor after the Park City altitude drains it. That scene becomes one of the episode's first truly memorable Unwell Winter Games moments."
+        },
+        {
+          "title": "Why she fits the cast concept",
+          "meta": "Polarizing Factor",
+          "description": "Unwell Winter Games is built around controversial, high-recognition personalities, and Delvey matches that brief immediately. Pre-launch coverage repeatedly positioned her as one of the lineup's biggest headline names."
+        },
+        {
+          "title": "What viewers searching her here want",
+          "meta": "Search Intent",
+          "description": "Viewers searching Anna Delvey in the context of Unwell Winter Games usually want a fast explainer: her real-world backstory, how she entered the series, and what happened during her early scenes in the chalet."
+        }
+      ]
+    },
+    "unwellWinterGamesFilmingLocation": {
+      "eyebrow": "Location Guide",
+      "title": "Unwell Winter Games Filming Location",
+      "subtitle": "The series is filmed in Park City, Utah, with a luxury chalet and mountain setting built directly into the format. The location is not just a backdrop — it shapes the visual style, challenge design, and cast drama.",
+      "items": [
+        {
+          "title": "Park City, Utah",
+          "caption": "Launch coverage places the show in Park City, where the full Unwell Winter Games competition unfolds over four consecutive days."
+        },
+        {
+          "title": "Luxury chalet base camp",
+          "caption": "The cast lives together in a luxury chalet, which turns the location into both a challenge hub and a pressure-cooker social space for the entire series."
+        },
+        {
+          "title": "Mountain-first challenge setting",
+          "caption": "The trailer and episode descriptions make the snowy mountain environment part of the competition itself rather than just scenic filler behind the cast."
+        },
+        {
+          "title": "Altitude changes the story",
+          "caption": "Episode one shows that Park City's elevation affects the experience directly — when Anna Delvey leaves early to charge her ankle monitor after the altitude drains it."
+        }
+      ]
+    },
+    "unwellWinterGamesHostAndCommentators": {
+      "eyebrow": "On-Screen Team",
+      "title": "Unwell Winter Games Host and Commentators",
+      "subtitle": "Adam Waheed leads the competition while Grace O'Malley and Graydon Cutler frame the chaos. The presenting team helps new viewers understand the Unwell Winter Games format fast.",
+      "items": [
+        {
+          "title": "Adam Waheed",
+          "meta": "Host",
+          "description": "Adam Waheed, also known online as Adam W., is the main host of Unwell Winter Games. His background as a large-scale comedy creator makes him a strong fit for a fast-moving competition that leans on personality as much as game structure."
+        },
+        {
+          "title": "Grace O'Malley",
+          "meta": "Commentator",
+          "description": "Grace O'Malley joins Unwell Winter Games as one of its commentators. Her comedy and podcast background gives the show a reaction-driven voice that fits the messy, internet-native energy of the cast."
+        },
+        {
+          "title": "Graydon Cutler",
+          "meta": "Commentator",
+          "description": "Graydon Cutler appears alongside Grace O'Malley as a commentator. His creator-first presence matches a series built around influencers, reality names, and highly online audience attention."
+        },
+        {
+          "title": "How the presenter lineup works",
+          "meta": "Format Fit",
+          "description": "The show divides duties clearly: Adam runs the Unwell Winter Games competition beats on screen, while Grace and Graydon help frame the tension, cast behavior, and challenge fallout for viewers following the drama."
+        }
+      ]
+    },
+    "unwellWinterGamesRules": {
+      "eyebrow": "How It Works",
+      "title": "Unwell Winter Games Rules",
+      "subtitle": "The format is team-based, fast, and built for drama. Sixteen reality personalities and creators compete through a short, high-pressure schedule in Park City with cash on the line.",
+      "items": [
+        {
+          "step": "01",
+          "title": "Sixteen contestants enter one shared winter setup",
+          "description": "The series brings together 16 reality TV personalities and digital creators, all living and competing from a luxury chalet in Park City, Utah."
+        },
+        {
+          "step": "02",
+          "title": "The cast is split into two teams",
+          "description": "The Unwell Winter Games competition divides players into two groups: a purple team and a blue team, who compete throughout the four-day event."
+        },
+        {
+          "step": "03",
+          "title": "Challenges mix physical effort with social and mental pressure",
+          "description": "Across four days, contestants face a rotating set of mental and physical challenges rather than a single-skill game format."
+        },
+        {
+          "step": "04",
+          "title": "Cash is on the line during the competition",
+          "description": "The Unwell Winter Games format includes individual cash prizes during the challenges, so not every money beat is saved for the very end."
+        },
+        {
+          "step": "05",
+          "title": "One team takes the final team prize",
+          "description": "After the four-day run, the format ends with one team winning the final Unwell Winter Games team prize, while alliances and rivalries shape the path there."
         }
       ]
     }

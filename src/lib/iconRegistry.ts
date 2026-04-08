@@ -39,6 +39,9 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Heart: LucideIcons.Heart,
   Link2: LucideIcons.Link2,
   UserCircle: LucideIcons.UserCircle,
+  MapPin: LucideIcons.MapPin,
+  Mic2: LucideIcons.Mic2,
+  ListOrdered: LucideIcons.ListOrdered,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
