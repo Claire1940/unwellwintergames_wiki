@@ -28,6 +28,12 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // 媒体和日历图标
+  PlayCircle: LucideIcons.PlayCircle,
+  Film: LucideIcons.Film,
+  CalendarDays: LucideIcons.CalendarDays,
+  Play: LucideIcons.Play,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
