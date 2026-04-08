@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "ガイド",
+    "watch": "視聴",
+    "cast": "キャスト",
+    "people": "人物",
+    "episode": "エピソード",
+    "controversy": "論争",
+    "reddit": "Reddit"
   },
   "common": {
     "home": "ホーム",

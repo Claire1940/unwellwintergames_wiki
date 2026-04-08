@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "guide": "Leitfaden",
+    "watch": "Ansehen",
+    "cast": "Besetzung",
+    "people": "Personen",
+    "episode": "Episoden",
+    "controversy": "Kontroverse",
+    "reddit": "Reddit"
   },
   "common": {
     "home": "Startseite",

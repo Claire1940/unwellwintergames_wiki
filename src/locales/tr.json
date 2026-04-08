@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehber",
+    "watch": "İzle",
+    "cast": "Oyuncular",
+    "people": "Kişiler",
+    "episode": "Bölümler",
+    "controversy": "Tartışma",
+    "reddit": "Reddit"
   },
   "common": {
     "home": "Ana Sayfa",

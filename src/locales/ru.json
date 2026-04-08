@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Гид",
+    "watch": "Смотреть",
+    "cast": "Актёры",
+    "people": "Персоны",
+    "episode": "Эпизоды",
+    "controversy": "Спорные вопросы",
+    "reddit": "Reddit"
   },
   "common": {
     "home": "Главная",

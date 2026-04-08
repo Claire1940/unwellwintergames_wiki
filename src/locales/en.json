@@ -10,7 +10,15 @@
       "twitterDescription": "Track the Unwell Winter Games cast, episodes, release schedule, couples, and where to watch Alex Cooper's YouTube reality competition."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "watch": "Watch",
+    "cast": "Cast",
+    "people": "People",
+    "episode": "Episodes",
+    "controversy": "Controversy",
+    "reddit": "Reddit"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -784,125 +792,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "guide": {
+      "title": "Unwell Winter Games Guide",
+      "description": "Complete guide to the Unwell Winter Games reality competition series. Learn about the format, challenges, and what to expect.",
+      "metaTitle": "Unwell Winter Games Guide - Complete Competition Overview",
+      "metaDescription": "Your complete guide to Unwell Winter Games. Discover the competition format, challenges, schedule, and everything you need to know.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is Unwell Winter Games?",
+      "whatIsDescription": "Unwell Winter Games is a reality competition series from Alex Cooper's Unwell Network, featuring 16 contestants competing in winter challenges at a luxury Park City cabin over four thrilling days.",
+      "why": "Why read the guide?",
+      "whySteps": {
+        "step1Title": "Understand the Format",
+        "step1Description": "Learn how the four-day competition is structured and what challenges contestants face",
+        "step2Title": "Meet the Players",
+        "step2Description": "Get context on all 16 contestants before diving into the drama",
+        "step3Title": "Follow the Season",
+        "step3Description": "Stay up to date with each episode, elimination, and key moments"
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "watch": {
+      "title": "Unwell Winter Games Where to Watch",
+      "description": "Find out where and how to watch Unwell Winter Games, including streaming links, release times, and trailer.",
+      "metaTitle": "Unwell Winter Games Where to Watch - Streaming & Release Times",
+      "metaDescription": "Watch Unwell Winter Games on YouTube. Get release times, streaming links, and the official trailer for every episode.",
+      "categoryLabel": "WHERE TO WATCH",
+      "whatIs": "Where can you watch Unwell Winter Games?",
+      "whatIsDescription": "Unwell Winter Games streams exclusively on the official Unwell YouTube channel (@Unwell), with new episodes dropping daily at 9AM PT throughout the competition week.",
+      "why": "Why check the watch guide?",
+      "whySteps": {
+        "step1Title": "Never Miss an Episode",
+        "step1Description": "Get exact release times so you can watch each episode as it drops",
+        "step2Title": "Find the Official Stream",
+        "step2Description": "Access direct links to the official Unwell YouTube channel and playlist",
+        "step3Title": "Watch the Trailer",
+        "step3Description": "Preview the season with the official Unwell Winter Games trailer before committing"
+      },
+      "featured": "Featured Watch Info",
+      "all": "All Watch Guides"
+    },
     "cast": {
       "title": "Unwell Winter Games Cast",
       "description": "Meet all 16 contestants competing in the Unwell Winter Games reality competition series.",
       "metaTitle": "Unwell Winter Games Cast - All 16 Contestants Guide",
       "metaDescription": "Complete cast guide for Unwell Winter Games featuring all contestants, their backgrounds, and why fans know them.",
       "categoryLabel": "CAST GUIDE",
-      "whatIs": "Who is in the cast?",
-      "whatIsDescription": "The Unwell Winter Games cast mixes reality TV veterans, internet creators, and pop culture figures across 16 contestants.",
-      "why": "Why check the cast guide?",
+      "whatIs": "Who is in the Unwell Winter Games cast?",
+      "whatIsDescription": "The Unwell Winter Games cast brings together 16 internet creators, podcast personalities, and pop culture figures competing across four days of winter challenges in Park City, Utah.",
+      "why": "Why read the cast guide?",
       "whySteps": {
         "step1Title": "Know the Contestants",
-        "step1Description": "Understand who each person is before watching",
+        "step1Description": "Understand who each person is before watching the competition unfold",
         "step2Title": "Track Relationships",
-        "step2Description": "See existing couples and connections entering the competition",
+        "step2Description": "See existing connections and potential alliances entering the competition",
         "step3Title": "Follow the Drama",
-        "step3Description": "Know the backstories that fuel the biggest storylines"
+        "step3Description": "Know the backstories that fuel the biggest storylines each episode"
       },
       "featured": "Featured Cast Members",
       "all": "All Cast"
     },
-    "episodes": {
+    "people": {
+      "title": "Unwell Winter Games People",
+      "description": "Deep dives on the key personalities from Unwell Winter Games, including Alex Cooper, Huda, Dakota Mortensen, and more.",
+      "metaTitle": "Unwell Winter Games People - Key Personalities & Contestants",
+      "metaDescription": "Profiles on every major personality in Unwell Winter Games including Alex Cooper, Huda, Dakota Mortensen, Hallie Batchelder, and Kendall.",
+      "categoryLabel": "PEOPLE",
+      "whatIs": "Who are the key people in Unwell Winter Games?",
+      "whatIsDescription": "From host Alex Cooper to standout contestants like Huda, Dakota Mortensen, and Hallie Batchelder, Unwell Winter Games features personalities with massive followings and complex relationships going into the competition.",
+      "why": "Why read about the people?",
+      "whySteps": {
+        "step1Title": "Get the Full Backstory",
+        "step1Description": "Understand each personality's history before they compete",
+        "step2Title": "Track Fan Favorites",
+        "step2Description": "Follow the contestants audiences are rooting for throughout the season",
+        "step3Title": "Context for the Drama",
+        "step3Description": "Know the relationships and rivalries that shape every episode's narrative"
+      },
+      "featured": "Featured Profiles",
+      "all": "All People"
+    },
+    "episode": {
       "title": "Unwell Winter Games Episodes",
-      "description": "Episode recaps and breakdowns for all four episodes of the Unwell Winter Games series.",
-      "metaTitle": "Unwell Winter Games Episodes - Full Recap Guide",
-      "metaDescription": "Complete episode guide for Unwell Winter Games including recaps, key moments, eliminations, and results.",
+      "description": "Episode recaps and breakdowns for all episodes of the Unwell Winter Games series.",
+      "metaTitle": "Unwell Winter Games Episodes - Full Recap & Breakdown Guide",
+      "metaDescription": "Complete episode guide for Unwell Winter Games including recaps, key moments, and results for every episode.",
       "categoryLabel": "EPISODES",
       "whatIs": "What happens each episode?",
-      "whatIsDescription": "Each episode covers one day of competition in Park City with new challenges, alliances, and drama.",
+      "whatIsDescription": "Each Unwell Winter Games episode covers one day of competition in Park City, featuring new winter challenges, shifting alliances, dramatic eliminations, and unexpected twists.",
       "why": "Why read episode recaps?",
       "whySteps": {
-        "step1Title": "Catch Up Fast",
-        "step1Description": "Get the key moments without rewatching full episodes",
-        "step2Title": "Track Results",
-        "step2Description": "Follow eliminations and challenge winners across episodes",
-        "step3Title": "Understand the Drama",
-        "step3Description": "Get context for the biggest conflicts and turning points"
+        "step1Title": "Catch Up on Key Moments",
+        "step1Description": "Get detailed recaps of challenges, eliminations, and standout scenes",
+        "step2Title": "Track the Competition",
+        "step2Description": "Follow who is winning, losing, and forming alliances episode by episode",
+        "step3Title": "Analyze the Drama",
+        "step3Description": "Break down the biggest confrontations and turning points of the season"
       },
-      "featured": "Featured Recaps",
+      "featured": "Featured Episodes",
       "all": "All Episodes"
     },
-    "schedule": {
-      "title": "Unwell Winter Games Schedule",
-      "description": "Release schedule, where to watch, and how to follow the daily Unwell Winter Games rollout.",
-      "metaTitle": "Unwell Winter Games Schedule - When and Where to Watch",
-      "metaDescription": "Full Unwell Winter Games release schedule including premiere date, episode drop times, and where to stream free on YouTube.",
-      "categoryLabel": "WATCH GUIDE",
-      "whatIs": "When does it release?",
-      "whatIsDescription": "Unwell Winter Games releases one episode daily from April 6-9, 2026 on the official Unwell YouTube channel at 9 AM PT.",
-      "why": "Why check the schedule?",
-      "whySteps": {
-        "step1Title": "Never Miss an Episode",
-        "step1Description": "Know exactly when each episode drops",
-        "step2Title": "Plan Your Watch",
-        "step2Description": "Catch up or watch live with the daily rollout",
-        "step3Title": "Find the Playlist",
-        "step3Description": "Access the official playlist for easy episode navigation"
-      },
-      "featured": "Featured Schedule",
-      "all": "Full Schedule"
-    },
-    "results": {
-      "title": "Unwell Winter Games Results",
-      "description": "Track winners, eliminations, and challenge results across all four episodes of Unwell Winter Games.",
-      "metaTitle": "Unwell Winter Games Results - Winners & Eliminations",
-      "metaDescription": "Up-to-date Unwell Winter Games results tracking challenge winners, eliminations, and the overall competition outcome.",
-      "categoryLabel": "RESULTS",
-      "whatIs": "What are the results?",
-      "whatIsDescription": "Results track who wins each challenge, who faces elimination, and who ultimately wins the Unwell Winter Games competition.",
-      "why": "Why check results?",
-      "whySteps": {
-        "step1Title": "Avoid Spoilers",
-        "step1Description": "Check results at your own pace after watching",
-        "step2Title": "Track the Competition",
-        "step2Description": "Follow the leaderboard across all four episodes",
-        "step3Title": "Find the Winner",
-        "step3Description": "Discover who wins the Unwell Winter Games competition"
-      },
-      "featured": "Latest Results",
-      "all": "All Results"
-    },
-    "couples": {
-      "title": "Unwell Winter Games Couples",
-      "description": "Track existing couples and new showmances developing across the Unwell Winter Games competition.",
-      "metaTitle": "Unwell Winter Games Couples - Relationships & Showmances",
-      "metaDescription": "Complete guide to Unwell Winter Games couples including existing relationships and new showmances developing in the competition.",
-      "categoryLabel": "COUPLES",
-      "whatIs": "Who are the couples?",
-      "whatIsDescription": "Unwell Winter Games features existing couples like Joe Amabile and Serena Pitt alongside potential new connections between contestants.",
-      "why": "Why follow the couples?",
-      "whySteps": {
-        "step1Title": "Track Romance",
-        "step1Description": "Follow developing relationships during the competition",
-        "step2Title": "Understand Alliances",
-        "step2Description": "See how couples affect gameplay and strategy",
-        "step3Title": "Spot New Connections",
-        "step3Description": "Catch early signs of new showmances forming"
-      },
-      "featured": "Featured Couples",
-      "all": "All Couples"
-    },
-    "drama": {
-      "title": "Unwell Winter Games Drama",
-      "description": "Track the biggest controversies, casting disputes, and drama moments from Unwell Winter Games.",
-      "metaTitle": "Unwell Winter Games Drama - Controversy & Key Moments",
-      "metaDescription": "Follow the biggest drama moments, casting controversies, and social media reactions from the Unwell Winter Games series.",
-      "categoryLabel": "DRAMA",
-      "whatIs": "What is the drama?",
-      "whatIsDescription": "Unwell Winter Games drama spans casting controversies, in-competition conflicts, and viral social media moments including Anna Delvey's ankle monitor storyline.",
-      "why": "Why follow the drama?",
+    "controversy": {
+      "title": "Unwell Winter Games Controversy",
+      "description": "Coverage of the controversies, debates, and fan reactions surrounding the Unwell Winter Games competition.",
+      "metaTitle": "Unwell Winter Games Controversy - Drama & Fan Reactions",
+      "metaDescription": "Explore the biggest controversies from Unwell Winter Games including viewer debates, contestant drama, and fan reactions.",
+      "categoryLabel": "CONTROVERSY",
+      "whatIs": "What controversies surround Unwell Winter Games?",
+      "whatIsDescription": "Unwell Winter Games has sparked online debate about contestant behavior, competition fairness, and interpersonal drama, with fans actively discussing every twist on social media.",
+      "why": "Why follow the controversy coverage?",
       "whySteps": {
         "step1Title": "Stay Informed",
-        "step1Description": "Know the key controversies before they come up in episodes",
-        "step2Title": "Understand Context",
-        "step2Description": "Get the backstory on cast disputes and social media reactions",
-        "step3Title": "Track Viral Moments",
-        "step3Description": "Find the clips and quotes generating the most discussion"
+        "step1Description": "Get a clear breakdown of what caused each controversy and who is involved",
+        "step2Title": "Understand Fan Reactions",
+        "step2Description": "See how audiences are responding to the most divisive moments",
+        "step3Title": "Form Your Own Opinion",
+        "step3Description": "Get multiple perspectives on the debates surrounding the competition"
       },
-      "featured": "Biggest Drama Moments",
-      "all": "All Drama"
+      "featured": "Featured Controversies",
+      "all": "All Controversies"
+    },
+    "reddit": {
+      "title": "Unwell Winter Games Reddit",
+      "description": "The best Reddit discussions, fan theories, and community reactions to Unwell Winter Games.",
+      "metaTitle": "Unwell Winter Games Reddit - Best Discussions & Fan Theories",
+      "metaDescription": "Explore the top Reddit discussions about Unwell Winter Games including fan theories, episode reactions, and community debates.",
+      "categoryLabel": "REDDIT",
+      "whatIs": "What is the Unwell Winter Games Reddit community?",
+      "whatIsDescription": "The r/unwellnetwork subreddit is the main hub for Unwell Winter Games fan discussions, including episode reactions, contestant debates, and fan theories about the competition.",
+      "why": "Why check Reddit discussions?",
+      "whySteps": {
+        "step1Title": "Real Fan Reactions",
+        "step1Description": "See authentic audience opinions on episodes, contestants, and competition results",
+        "step2Title": "Discover Fan Theories",
+        "step2Description": "Explore community speculation about alliances, outcomes, and hidden drama",
+        "step3Title": "Join the Conversation",
+        "step3Description": "Engage with the most active Unwell Winter Games fan community online"
+      },
+      "featured": "Top Reddit Discussions",
+      "all": "All Reddit Coverage"
     }
   }
 }
